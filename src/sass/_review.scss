@@ -1,0 +1,145 @@
+/* ============================== root styles ============================== */
+ 
+/* ============================== body styles ============================== */
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {  
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ============================== Rewievs styles ============================== */
+
+/* ++++++++++ Стили слайдера ++++++++++ */
+
+/* Слайдер */
+.slick-slider {}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {}
+
+/* Ограничивающая оболочка */
+.slick-list {}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+}
+
+/* Слайд */
+.slick-slide {}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {}
+
+/* Слайд основной */
+.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.slick-slide.slick-center {}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned {}
+
+/* Стрелка */
+.slick-arrow {}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {}
+
+/* Точки (булиты) */
+.slick-dots {}
+.slick-dots li {}
+
+/* Активная точка */
+.slick-dots li.slick-active {}
+
+/* Элемент точки */
+.slick-dots li button {}
+
+/* ++++++++++ Стили для контента в слайдах ++++++++++ */
+
+.reviews {
+    display: block;
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: var(--main-background-color);
+    background-image: url(/src/images/slider/backgroud_desktop.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.review-item {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.customer-photo {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.customer-review-text {
+    max-width: 968px;
+
+    padding: 43px 73px;
+
+    background: #84A178;
+    border-radius: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FCFCFC;
+}
+
+.customer-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+
+    text-align: center;
+
+    color: #131313;
+}
