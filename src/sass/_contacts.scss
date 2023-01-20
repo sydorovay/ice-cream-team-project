@@ -1,0 +1,284 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list {
+    list-style: none; 
+}
+.link {
+    text-decoration: none;
+}
+h1,h2,h3,p,ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+    // border: 1px solid red;
+}
+/* CONTACTS */
+.contacts {
+    background-color: #84A178;
+    min-width: 480px;
+    padding: 60px 0;
+    background-color: #84A178;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 27%, rgba(132,161,120,1) 27%);
+}
+.contacts-list-item {
+    padding: 40px 32px 24px;
+    width: 280px;
+    margin: 0 auto 16px;
+    background-color: #FCFCFC;
+    border-radius: 24px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+}
+.contacts-list-item:nth-child(3){
+    margin-bottom: 0;
+}
+.wrapper-text-contacts {
+    min-width: 80px;
+    height: 22px;
+    background-color: #F8D24E;
+    padding: 4px 22px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    color: #131313;
+    // margin-bottom: 20px;
+}
+.wrapper-text-week {
+    margin-bottom: 8px;
+}
+.text-place {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    letter-spacing: 0.04em;
+    color: #131313;
+    margin: 20px 0 8px;
+}
+.address {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    letter-spacing: 0.04em;
+    color: #D6936D;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #E1E1E1;
+    cursor: pointer;
+}
+.address:hover,
+.address:focus {
+    text-decoration: underline;
+}
+.text-working-days {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    color: #131313;
+}
+.text-working-time {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    color: #ABABAB;
+}
+.wrapper-text-wd {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.contacts-list-tel {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.58;
+    color: #131313;
+    margin-bottom: 6px;
+}
+.contacts-list-mail {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.58;
+    color: #131313;
+}
+.btn-contacts-one {
+    display: block;
+    margin: 20px auto 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #131313;
+    width: 196px;
+    height: 42px;
+    border-radius: 10px;
+    border: #F8D24E;
+    background-color: #F8D24E;
+    padding: 0;
+    cursor: pointer;
+}
+.btn-contacts-one:hover {
+    background-color: #0A8817;;
+}
+.btn-contacts-one:focus {
+    background-color: #0A8817;
+    color: #FFFFFF;
+}
+.btn-contacts-two {
+    display: block;
+    margin: 0 auto ;
+    padding: 0;
+    width: 196px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid #F8D24E;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #000000;
+    cursor: pointer;
+}
+.btn-contacts-two:hover {
+    border: 2px solid #0A8817;
+}
+.btn-contacts-two:focus {
+    border: 2px solid #0A8817;
+    color: #FFFFFF;
+}
+.svg-btn-contacts {
+    width: 5px;
+    height: 10px;
+}
+@media screen and (min-width: 480px){
+    .container {
+        width: 480px;
+        padding: 0 100px;
+    }
+} 
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+    .contacts {
+        background-color: #84A178;
+        background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(132,161,120,1) 50%);
+    }
+    .contacts-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contacts-list-item {
+        width: 224px;
+        margin: 0;
+        padding: 40px 24px;
+    }
+    .wrapper-text-contacts {
+        min-width: 73px;
+        height: 39px;
+        padding: 4px 13px;
+        border-radius: 6px;
+        font-size: 16px;
+        line-height: 1.37;
+        margin-bottom: 36px;
+    }
+    .text-place {
+        font-size: 14px;
+        line-height: 1.85;
+        margin: 32px 0 12px;
+    }
+    .address {
+        font-size: 14px;
+        line-height: 1.85;
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+    }
+    .text-working-days, .text-working-time {
+        font-size: 14px;
+        line-height: 1.85;
+    }
+    .wrapper-text-wd {
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+    }
+    .contacts-list-tel {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 4px;
+    }
+    .contacts-list-mail {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .btn-contacts-one {
+        display: inline-block;
+        margin: 40px 16px 148px 0;
+    }
+    .btn-contacts-two {
+        display: inline-block;
+    } 
+}
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1200px;
+        padding: 0 16px;
+    }
+    .contacts {
+        background: linear-gradient(180deg, rgba(255,255,255,1) 23.5%, rgba(132,161,120,1) 23.5%);
+    }
+    .contacts-list-item {
+        width: 368px;
+    }
+    .wrapper-text-contacts {
+        padding: 4px 14px;
+    }
+    .wrapper-text-week {
+        margin-bottom: 12px;
+    }
+    .text-place {
+        font-size: 16px;
+        line-height: 1.87;
+    }
+    .address {
+        font-size: 16px;
+        line-height: 1.81;
+    }
+    .text-working-days, .text-working-time {
+        font-size: 16px;
+        line-height: 1.87;
+    }
+    .contacts-list-tel {
+        font-size: 16px;
+    }
+    .contacts-list-mail {
+        font-size: 16px;
+    }
+    .btn-contacts-one {
+        margin-top: 60px;
+        margin-left: 380px;
+    }
+}
+.is-hiden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    /* так сказав ментор */
+}
