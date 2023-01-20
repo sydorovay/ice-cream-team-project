@@ -1,23 +1,4 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 
-.list {
-    list-style: none; 
-}
-.link {
-    text-decoration: none;
-}
-h1,h2,h3,p,ul {
-    margin: 0;
-    padding: 0;
-}
-.container {
-    min-width: 320px;
-    margin: 0 auto;
-    padding: 0 20px;
-    // border: 1px solid red;
-}
 /* CONTACTS */
 .contacts {
     background-color: #84A178;
@@ -265,20 +246,6 @@ h1,h2,h3,p,ul {
         margin-top: 60px;
         margin-left: 380px;
     }
-}
-.is-hiden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    /* так сказав ментор */
+
+	
 }
