@@ -1,0 +1,50 @@
+* {
+	-webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 320px;
+	font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.button,
+.link {
+	cursor: pointer;
+}
+
+.visually-hidden {
+	position: fixed;
+	transform: scale(0);
+}
