@@ -1,0 +1,113 @@
+@media screen and (min-width: 480px) {
+	.hero-mobile-img {
+		display: none;
+	}
+
+	.hero-header .container {
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.hero-img {
+		display: none;
+	}
+
+	.hero-info {
+		margin-bottom: 247px;
+	}
+
+	.hero-info {
+		margin-bottom: 236px;
+	}
+
+	.ice-cream-header-mobile {
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 27%;
+		width: 53%;
+		height: auto;
+	}
+
+	.dotted-header-mobile {
+		display: block;
+		position: absolute;
+		width: 100%;
+		max-height: 228px;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.hero-title-link {
+		margin-bottom: 161px;
+	}
+
+	.dotted-header {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	.ice-cream-header {
+		position: absolute;
+
+		bottom: 0;
+		right: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.lots-of-ice-cream-img,
+	.doted-tablet-img,
+	.ice-cream-hero-tablet-img {
+		display: none;
+	}
+
+	.logo-img {
+		max-width: 40px;
+		max-height: 37px;
+	}
+
+	.container {
+		max-width: 480px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 14px;
+	}
+
+	.hero {
+		flex-direction: column;
+	}
+
+	.hero-header {
+		position: relative;
+	}
+
+	.header-content {
+		margin-bottom: 50px;
+	}
+
+	.hero-amount,
+	.hero-description {
+		display: none;
+	}
+
+	.hero-title {
+		margin-bottom: 43px;
+	}
+
+	.products-button {
+		padding: 11px 26px;
+	}
+
+	.header-content > .button-buy-now {
+		display: none;
+	}
+
+	.button-buy-now {
+		margin: 0 auto;
+	}
+}
