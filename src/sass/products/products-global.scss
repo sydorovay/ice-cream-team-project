@@ -59,9 +59,9 @@
     display: flex;
     justify-content: center;
 
-    padding-top: 124px;
+    padding: 124px 40px 0 40px;
 
-    width: 280px;
+    width: 200px;
     height: 296px;
 
     border-radius: 24px;
@@ -74,7 +74,7 @@
     transform: translateY(-50%);
     width: 200px;
     height: 211px;
-    background-image: url(../products/ice-cream-products.jpg);
+    background-image: url(../products/ice-cream-products.png);
     background-position: center;
     border-radius: 50%;
 }
@@ -86,7 +86,7 @@
     transform: translateY(-50%);
     width: 200px;
     height: 211px;
-    background-image: url(../products/cofee-products.jpg);
+    background-image: url(../products/cofee-products.png);
     background-position: center;
     border-radius: 50%;
 }
@@ -98,7 +98,7 @@
     transform: translateY(-50%);
     width: 200px;
     height: 211px;
-    background-image: url(../products/cocktails-products.jpg);
+    background-image: url(../products/cocktails-products.png);
     background-position: center;
     border-radius: 50%;
 }
@@ -117,7 +117,7 @@
 }
 
 .products-card-text {
-    width: 200px;
+
     font-size: 14px;
     line-height: 1.76;
     text-align: center;
