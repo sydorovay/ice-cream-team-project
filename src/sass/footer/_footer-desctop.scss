@@ -1,0 +1,44 @@
+@media screen and (min-width: 1200px) {
+	.footer-container {
+		width: 1200px;
+		padding: 0 16px;
+	}
+
+	.footer-heading {
+		width: 504px;
+
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 1.23;
+		letter-spacing: 0.04em;
+	}
+
+	.footer-heading span {
+		margin-top: 14px;
+		font-weight: 700;
+		font-size: 58px;
+		line-height: 71px;
+		letter-spacing: 0.06em;
+	}
+
+	.footer-social-media-list {
+		margin-bottom: 40px;
+		gap: 30px;
+	}
+
+	.footer-contacts {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.footer-privacy-policy {
+		padding: 12px 0;
+	}
+
+	.footer-privacy-policy-text {
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 186%;
+		letter-spacing: 0.02em;
+	}
+}
