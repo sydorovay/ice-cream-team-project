@@ -1,0 +1,126 @@
+.header-logo {
+	display: block;
+	margin-right: auto;
+}
+
+.hero-header {
+	background-color: var(--section-gren-color);
+	width: 100%;
+}
+
+.hero-header .container {
+	background-repeat: no-repeat;
+}
+
+.menu.button {
+	display: block;
+	border: none;
+	background-color: transparent;
+}
+
+.hero-info {
+	display: flex;
+	align-items: center;
+}
+
+.header-content {
+	display: flex;
+	align-items: flex-end;
+	justify-items: center;
+}
+
+.nav-link {
+	font-weight: 700;
+}
+
+.button-buy-now::after {
+	content: url('../images/svg/arrow-right.svg');
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.button-buy-now {
+	display: block;
+	align-items: center;
+	font-weight: 600;
+	line-height: 1.2;
+
+	padding: 12px 35px;
+	bottom: 64px;
+	border-radius: 10px;
+	border: none;
+	background-color: var(--default-color);
+	color: var(--text-hover-disabled-color);
+}
+
+.button-buy-now:hover {
+	background-color: var(--hover-color);
+	color: var(--text-hover-disabled-color);
+}
+
+.button-buy-now:focus {
+	background-color: var(--hover-color);
+	color: var(--text-focus-color);
+}
+
+.button-buy-now:disabled {
+	background-color: var(--default-color);
+	color: var(--text-hover-disabled-color);
+}
+
+.hero-title {
+	font-family: "Seymour One";
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var(--text-color-light);
+}
+
+.hero-title-link {
+	position: relative;
+	z-index: 5;
+}
+.products-button {
+	font-weight: 600;
+	align-items: center;
+	color: var(--text-color-dark);
+	border-color: var(--default-color);
+	border: 2px solid #f8d24e;
+	color: var(--black-color);
+}
+
+.products-button:hover {
+	border-color: var(--hover-color);
+}
+
+.products-recipe {
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: var(--default-color);
+}
+
+.products-recipe:hover {
+	color: var(--hover-color);
+}
+
+.cafes-amount {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.trucks-amount {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.hero-description::after {
+	content: url('../images/svg/arrow.svg');
+	display: block;
+}
+.number {
+	font-weight: 900;
+	letter-spacing: 0.04em;
+	color: var(--text-color-dark);
+}

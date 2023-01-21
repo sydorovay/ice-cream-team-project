@@ -2,16 +2,42 @@
 @import "./global";
 @import "./vars";
 
+@import "./hero-header/hero-header-global";
+@import "./hero-header/hero-header-mobile";
+@import "./hero-header/hero-header-tablet";
+@import "./hero-header/hero-header-desctop";
 
-=======
-@import './hero-header/hero-header-general';
-@import './hero-header/hero-header-mobile';
-@import './hero-header/hero-header-tablet';
-@import './hero-header/hero-header-desctop'; 
+@import "./products/products-global.scss";
+@import "./products/products-mobile.scss";
+@import "./products/products-tablet.scss";
+@import "./products/products-desctop.scss";
 
-@import './about/about-desctop.scss';
-@import './about/about-global.scss';
-@import './about/about-mobile.scss';
-@import './about/about-tablet.scss';
+@import "./about/about-global.scss";
+@import "./about/about-mobile.scss";
+@import "./about/about-tablet.scss";
+@import "./about/about-desctop.scss";
 
-@import "./contacts/contacts";
+@import "./advantages/advantages-global.scss";
+@import "./advantages/advantages-mobile.scss";
+@import "./advantages/advantages-tablet.scss";
+@import "./advantages/advantages-desctop.scss";
+
+@import "./gallery/gallery-global.scss";
+@import "./gallery/gallery-mobile.scss";
+@import "./gallery/gallery-tablet.scss";
+@import "./gallery/gallery-desctop.scss";
+
+@import "./customer-reviews/customer-reviews-global.scss";
+@import "./customer-reviews/customer-reviews-mobile.scss";
+@import "./customer-reviews/customer-reviews-tablet.scss";
+@import "./customer-reviews/customer-reviews-desctop.scss";
+
+@import "./contacts/contacts-global";
+@import "./contacts/contacts-mobile";
+@import "./contacts/contacts-tablet";
+@import "./contacts/contacts-tablet";
+
+@import "./footer/footer-global.scss";
+@import "./footer/footer-mobile.scss";
+@import "./footer/footer-tablet.scss";
+@import "./footer/footer-desctop.scss";
