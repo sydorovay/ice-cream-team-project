@@ -79,6 +79,8 @@
 		<button data-modal-open class="btn-contacts-two" type="button"  >Franchise</button>
 	</div>
 
+				<!-- modal franchise -->
+
 	<div class="backdrop-franchise is-hidden" data-modal>
 		<div class="modal">
 			
@@ -98,7 +100,8 @@
 						name="user_name" 
 						required
 						autocomplete="off"
-						placeholder="Name">
+						placeholder="Name"
+						pattern="[A-Za-z]">
 							
 					</label>
 
@@ -108,8 +111,10 @@
 					class="contact-form-modal phone" 
 					type="Phone" 
 					name="user_phone"
+					required
 					autocomplete="off"
-					placeholder="Phone">
+					placeholder="Phone"
+					pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
 					   
 					</label>
 
@@ -121,7 +126,8 @@
 					name="user_name" 
 					required
 					autocomplete="off"
-					placeholder="Email">
+					placeholder="Email"
+					pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 					   
 					</label>
 
@@ -132,17 +138,17 @@
 				</div>
 				
 				<div class="franchise-submit-btn">
-				<button class="franchise-submit">Submit</button>
+				<button type="button" class="franchise-submit">Submit</button>
 				</div>
 
 			</form>
 		  <button type="button" class="button-close" data-modal-close>
 			<svg class="icon-close">
-			  <use href="./closebtn.svg#close-btn"></use>
+			  <use href="./images/svg/closebtn.svg#close-btn"></use>
 			</svg>
 		  </button>
 		</div>
 	  </div>
 
-	  <script src="/franchise_modal.js"></script>
+	  <script src="/src/franchise-btn.js"></script>
 </section>
