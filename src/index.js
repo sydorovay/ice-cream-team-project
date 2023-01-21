@@ -1,3 +1,10 @@
+$(document).ready(function(){
+	$('.slider').slick({
+		arrows:false,
+		dots:true,			
+	});
+});
+
 (() => {
 	const refs = {
 		openMenuBtn: document.querySelector("[data-menu-open]"),

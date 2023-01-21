@@ -1,0 +1,169 @@
+/* ============================== REVIEWS styles ============================== */
+
+/* ++++++++++ Стили слайдера ++++++++++ */
+
+.slider {
+    position: relative;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0 18px;
+    
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: #84A178;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 0px;
+
+    background-color: #D9D9D9;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+
+    font-size: 0;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+}
+
+/* Слайдер */
+.slick-slider {}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {}
+
+/* Ограничивающая оболочка */
+.slick-list {}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+}
+
+/* Слайд */
+.slick-slide {}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {}
+
+/* Слайд основной */
+.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.slick-slide.slick-center {}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned {}
+
+/* Стрелка */
+.slick-arrow {}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {}
+
+/* Точки (булиты) */
+.slick-dots {}
+.slick-dots li {}
+
+/* Активная точка */
+.slick-dots li.slick-active {}
+
+/* Элемент точки */
+.slick-dots li button {}
+
+/* ++++++++++++++++++++ Стили для контента в слайдах ++++++++++++++++++++ */
+
+.reviews {
+    display: block;
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: var(--main-background-color);
+    background-image: url(../images/slider/backgroud_desktop.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.review-item {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.customer-photo {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.customer-review-text {
+    margin: 0;
+
+    max-width: 968px;
+
+    padding: 43px 73px;
+
+    background: var(--main-backgground-color);
+    border-radius: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: var(--main-text-color);
+}
+
+.customer-name {
+    margin: 0;
+    padding: 0;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+
+    text-align: center;
+
+    color: var(--secondary-text-color);
+}
+
+
