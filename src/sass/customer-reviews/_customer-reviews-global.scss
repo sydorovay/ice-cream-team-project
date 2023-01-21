@@ -107,13 +107,13 @@
 
 /* ++++++++++++++++++++ Стили для контента в слайдах ++++++++++++++++++++ */
 
-.reviews {
+.customers-reviews {
     display: block;
     width: 100%; 
     margin-left: auto;
     margin-right: auto; 
     background-color: var(--main-background-color);
-    background-image: url(../images/slider/backgroud_desktop.jpg); 
+    background-image: url(/src/images/slider/backgroud_desktop.jpg); 
     background-size: cover;
     background-position: center;
 }
@@ -140,7 +140,7 @@
 
     padding: 43px 73px;
 
-    background: var(--main-backgground-color);
+    background-color: #84A178;
     border-radius: 24px;
 
     font-weight: 500;
@@ -150,7 +150,7 @@
     text-align: center;
     letter-spacing: 0.04em;
 
-    color: var(--main-text-color);
+    color: var(--text-color-light);
 }
 
 .customer-name {
@@ -163,7 +163,7 @@
 
     text-align: center;
 
-    color: var(--secondary-text-color);
+    color: var(--text-color-dark);
 }
 
 
