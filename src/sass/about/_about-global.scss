@@ -1,0 +1,186 @@
+.about {
+    background-color: var(--section-gren-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-about {
+    width: 100%;
+    margin: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.tradition {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-color-light);
+}
+
+.title-about {
+    width: 200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+    font-family: 'Seymour One';
+    font-size: 30px;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-color-light);
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 310px;
+    margin-bottom: 40px;
+}
+
+.image-cow {
+    width: 279px;
+    position: absolute;
+    top: 22px;
+    display: flex;
+    align-items: center;
+
+}
+
+.circle-above-cow {
+    width: 279px;
+    height: 279px;
+    border-radius: 50%;
+    background-color: #EFD478;
+}
+
+.about-texts {
+    font-size: 12px;
+    line-height: 1.76;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--text-color-light);
+}
+
+.text-two,
+.text-three {
+    line-height: 1.62;
+}
+
+.text-one,
+.text-two,
+.text-three {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.text-three {
+    margin-bottom: 24px;
+}
+
+.readmore {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: var(--text-hover-disabled-color);
+    width: 164px;
+    height: 42px;
+    background: var(--default-color);
+    border-radius: 10px;
+    border: none;
+}
+
+.button-center,
+.img-position {
+    display: flex;
+    justify-content: center;
+}
+
+.readmore:hover {
+    background-color: var(--hover-color);
+}
+
+.readmore:focus {
+    color: var(--text-color-light);
+    background-color: var(--hover-color);
+}
+
+.read-button:focus {
+    fill: var(--text-color-light);
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    overflow-y: scroll;
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--text-color-light);
+    border: 2px solid var(--default-color);
+    border-radius: 10px;
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0.8);
+}
+
+.x-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 12px;
+    height: 12px;
+}
+
+.modal-form {
+    padding-top: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Seymour One';
+    line-height: 1.5;
+    text-align: center;
+    color: var(--text-color-dark);
+}
+
+.made-ice-text {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--text-color-dark);
+}
+
+.close-button {
+    border: none;
+    background: transparent;
+}
+
+.ice-video {
+    border-radius: 10px;
+}
