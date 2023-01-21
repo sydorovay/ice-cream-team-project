@@ -1,10 +1,9 @@
 .container{
     background-color: rgba(132, 161, 120, 1);
-
 }
     .advantages{
         
-        background-color: rgba(132, 161, 120, 1);
+        background-color: var(--section-gren-color);
     }
     .advantages-card{
         display: flex;
@@ -13,7 +12,7 @@
 
     }
     .advantages-list{
-        outline: 1px solid tomato;
+       
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +26,7 @@
         transform: scale(0);
     }
     .advantages-item{
-        outline: 1px solid tomato;
+       
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -37,14 +36,14 @@
     }
     .advantages-icon-bg{
         display: flex;
-        outline: 1px solid tomato;
+        
         justify-content: center;
         align-items: center;
         background-color: rgba(248, 210, 78, 1);
         border-radius: 50%;
     }
     .advantages-digital{
-        outline: 1px solid tomato;
+      
         font-size: 36px;
         font-family: 'Montserrat';
     font-style: normal;
@@ -53,15 +52,15 @@
     line-height: 1.22;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #FCFCFC;
+    color: var(--text-color-light);
    
     }
     .advantages-text{
-        outline: 1px solid tomato;
+       
         font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 1.74;
-    color: #FCFCFC;
+    color: var(--text-color-light);
     }
