@@ -2,4 +2,16 @@
 @import "./global";
 @import "./vars";
 
+
+=======
+@import './hero-header/hero-header-general';
+@import './hero-header/hero-header-mobile';
+@import './hero-header/hero-header-tablet';
+@import './hero-header/hero-header-desctop'; 
+
+@import './about/about-desctop.scss';
+@import './about/about-global.scss';
+@import './about/about-mobile.scss';
+@import './about/about-tablet.scss';
+
 @import "./contacts/contacts";
