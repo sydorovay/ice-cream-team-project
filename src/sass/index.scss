@@ -1,7 +1,9 @@
-@import './common';
-@import './global';
-@import './vars';
+@import "./common";
+@import "./global";
+@import "./vars";
 
+
+=======
 @import './hero-header/hero-header-general';
 @import './hero-header/hero-header-mobile';
 @import './hero-header/hero-header-tablet';
@@ -12,6 +14,4 @@
 @import './about/about-mobile.scss';
 @import './about/about-tablet.scss';
 
-
-
-@import './contacts/contacts';
+@import "./contacts/contacts";
