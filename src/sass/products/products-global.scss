@@ -1,0 +1,138 @@
+/* PRODUCTS */
+
+.products {
+    padding: 60px auto;
+
+    color: var(--text-color-dark);
+    background-color: var(--text-color-light);
+}
+
+.products-header-box {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+}
+
+.products-header-label {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2222;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.products-header {
+    margin: 12px 0 0 0;
+
+    font-family: 'Seymour One';
+    font-size: 30px;
+    line-height: 1.2667;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.products-cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 168px;
+    align-items: center;
+
+    margin: 148px 0 60px 0;
+}
+
+.products-cards-list li:nth-child(3n+1) {
+    background-color: #AEC6A5;
+}
+
+.products-cards-list li:nth-child(3n+2) {
+    background-color: #EFD478;
+}
+
+.products-cards-list li:nth-child(3n+3) {
+    background-color: #D6936D;
+}
+
+.products-card {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 124px;
+
+    width: 280px;
+    height: 296px;
+
+    border-radius: 24px;
+}
+
+.products-cards-list li:nth-child(3n+1)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 211px;
+    background-image: url(../products/ice-cream-products.jpg);
+    background-position: center;
+    border-radius: 50%;
+}
+
+.products-cards-list li:nth-child(3n+2)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 211px;
+    background-image: url(../products/cofee-products.jpg);
+    background-position: center;
+    border-radius: 50%;
+}
+
+.products-cards-list li:nth-child(3n+3)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 211px;
+    background-image: url(../products/cocktails-products.jpg);
+    background-position: center;
+    border-radius: 50%;
+}
+
+.products-card-textbox {}
+
+.products-card-title {
+    margin: 20px 0 40px 0;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.products-card-text {
+    width: 200px;
+    font-size: 14px;
+    line-height: 1.76;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.products-arrow-btn {
+    position: absolute;
+    bottom: 16px;
+
+    width: 40px;
+    height: 16px;
+
+    border: none;
+    background: none;
+
+    fill: var(--text-color-dark);
+}
