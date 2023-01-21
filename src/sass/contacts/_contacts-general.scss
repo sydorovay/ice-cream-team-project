@@ -23,6 +23,7 @@
     margin-bottom: 0;
 }
 .wrapper-text-contacts {
+    display: inline-block;
     min-width: 80px;
     height: 22px;
     background-color: var(--default-color);
@@ -55,7 +56,6 @@
     padding-bottom: 24px;
     margin-bottom: 24px;
     border-bottom: 1px solid #E1E1E1;
-    cursor: pointer;
 }
 .address:hover,
 .address:focus {
@@ -106,7 +106,6 @@
     border: #F8D24E;
     background-color: var(--default-color);
     padding: 0;
-    cursor: pointer;
 }
 .btn-contacts-one:hover {
     background-color: var(--hover-color);
@@ -128,7 +127,6 @@
     font-size: 14px;
     line-height: 1.28;
     color: #000000;
-    cursor: pointer;
 }
 .btn-contacts-two:hover {
     border: 2px solid var(--hover-color);
