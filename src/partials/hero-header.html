@@ -5,7 +5,7 @@
 				<a class="header-logo" href="#">
 					<img
 						class="logo-img"
-						src='./images/logo/logo.png'
+						src="./images/logo/logo.png"
 						alt="logo"
 						width="48"
 					/>
@@ -15,7 +15,7 @@
 						<nav class="navigation">
 							<ul class="nav-list list" data-menu-close>
 								<li class="nav-item">
-									<a href="#home" class="nav-link link ">Home </a>
+									<a href="#home" class="nav-link link">Home </a>
 								</li>
 								<li class="nav-item">
 									<a href="#about" class="nav-link link">How it’s made?</a>
@@ -31,19 +31,23 @@
 
 						<button class="close-menu button" type="button" data-menu-close>
 							<svg class="close-white" width="20" height="20">
-								<use href='./images/sprite.svg#icon-close-white'></use>
+								<use href="./images/sprite.svg#icon-close-white"></use>
 							</svg>
 						</button>
 
-						<button class="button-buy-now  arrow-right button" type="button">Buy now</button>
+						<button class="button-buy-now arrow-right button" type="button">
+							Buy now
+						</button>
 					</div>
 				</div>
 				<button class="menu button" type="button" data-menu-open>
 					<svg class="menu-hamburger" width="32" height="32">
-						<use href='./images/sprite.svg#icon-menu-hamburger'></use>
+						<use href="./images/sprite.svg#icon-menu-hamburger"></use>
 					</svg>
 				</button>
-				<button class="button-buy-now arrow-right button" type="button">Buy now</button>
+				<button class="button-buy-now arrow-right button" type="button">
+					Buy now
+				</button>
 			</div>
 			<div class="hero">
 				<div class="hero-title-content">
@@ -70,13 +74,84 @@
 				</div>
 
 				<div class="lots-of-ice-cream">
-					<p class="hero-description">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et
-					</p>
+					<img
+						class="lots-of-ice-cream-img"
+						srcset="
+							./images/hero/lots-of-ice-cream-tablet.png    1x,
+							./images/hero/lots-of-ice-cream-tablet@2x.png 2x
+						"
+						src="./images/hero/lots-of-ice-cream-tablet.png"
+						alt="lots of ice cream"
+						width="152"
+					/>
+					<img
+						class="lots-of-ice-cream-img-desctop"
+						srcset="
+							./images/hero/lots-of-ice-cream-desctop.png    1x,
+							./images/hero/lots-of-ice-cream-desctop@2x.png 2x
+						"
+						src="./images/hero/lots-of-ice-cream-desctop.png"
+						alt="lots of ice cream"
+						width="255"
+					/>
 				</div>
+				<p class="hero-description">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore et
+				</p>
+
 				<div class="hero-mobile-img">
-				
+					<img
+						srcset="
+							./images/hero/doted-mobile.png    1x,
+							./images/hero/doted-mobile@2x.png 2x
+						"
+						src="./images/hero/doted-mobile.png"
+						alt="icecream"
+						class="dotted-header-mobile"
+						width="320"
+					/>
+
+					<img
+						srcset="./images/hero/mobile.png 1x, ./images/hero/mobile@2x.png 2x"
+						src="./images/hero/mobile.png"
+						alt="doteds"
+						class="ice-cream-header-mobile"
+						width="177"
+					/>
+				</div>
+				<div class="hero-img">
+					<img
+						srcset="
+							./images/hero/doted480.png    1x,
+							./images/hero/doted480@2x.png 2x
+						"
+						src="./images/hero/doted480.png"
+						alt="icecream"
+						class="dotted-header"
+						width="330"
+					/>
+					<img
+						srcset="./images/hero/480.png 1x, ./images/hero/480.png 2x"
+						src="./images/hero/480.png"
+						alt="doteds"
+						class="ice-cream-header"
+						width="218"
+					/>
+				</div>
+
+				<div class="hero-tablet-img">
+					<img
+						class="doted-tablet-img"
+						srcset="
+							./images/hero/doted-tablet.png    1x,
+							./images/hero/doted-tablet@2x.png 2x
+						"
+						src="./images/hero/doted-tablet.png"
+						alt="dotteds"
+					/>
+					
+				</div>
 			</div>
 		</div>
 	</header>

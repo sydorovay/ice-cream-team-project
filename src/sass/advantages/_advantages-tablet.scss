@@ -1,17 +1,16 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .advantages-list{
-        margin-right: 76px;
-        margin-left: 76px;
-    }
-    .advantages-item{
-        max-width: 152px;
-        
-    }
-    .advantages-item:not(:last-chald){
-        margin-left: 80px;
-    }
-    .advantages-text{
-        max-width: 152px;
-        text-align: center;
+	.advantages-list {
+		margin-right: 76px;
+		margin-left: 76px;
+	}
+	.advantages-item {
+		max-width: 152px;
+	}
+	.advantages-item:not(:last-chald) {
+		margin-left: 80px;
+	}
+	.advantages-text {
+		max-width: 152px;
+		text-align: center;
+	}
 }
-    }
