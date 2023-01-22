@@ -1,5 +1,9 @@
 /* ============================== REVIEWS styles ============================== */
 
+.customer-reviews {
+    padding-top: 80px;
+}
+
 /* ++++++++++ Стили слайдера ++++++++++ */
 
 .slider .slick-dots {
@@ -45,17 +49,6 @@
 }
 
 /* ++++++++++++++++++++ Стили для контента в слайдах ++++++++++++++++++++ */
-
-.customers-reviews {
-    display: block;
-    width: 100%; 
-    margin-left: auto;
-    margin-right: auto; 
-    background-color: var(--main-background-color);
-    background-image: url('/src/images/slider/backgroud_desktop.jpg'); 
-    background-size: cover;
-    background-position: center;
-}
 
 .review-item {
     display: flex;
