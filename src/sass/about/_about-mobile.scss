@@ -1,26 +1,5 @@
-@media screen and (min-width: 320px) and (max-width: 360px) {
-    .container-about {
-        padding-left: 20px;
-        padding-right: 20px;
-
-    }
-}
-
-@media screen and (min-width: 360px) and (max-width: 480px) {
-
-    .container-about {
-        padding-left: 40px;
-        padding-right: 40px;
-
-    }
-}
 
 @media screen and (min-width: 480px) {
-    .container-about {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
     .modal {
         width: 280px;
         height: 459px;

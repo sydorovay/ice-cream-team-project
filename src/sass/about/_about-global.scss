@@ -45,20 +45,42 @@
     margin-bottom: 40px;
 }
 
-.image-cow {
-    width: 279px;
-    position: absolute;
-    top: 22px;
-    display: flex;
-    align-items: center;
-
-}
-
 .circle-above-cow {
     width: 279px;
     height: 279px;
     border-radius: 50%;
     background-color: #EFD478;
+}
+.circle-above-cow::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 279px;
+    height: 279px;
+    background-image: url("/src/images/advantages/cow-desctop.png");
+    background-position: center;
+    background-size: cover;
+}
+.circle-above-cow:hover {
+    animation-name: changeBgColor;
+    animation-duration: 3000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changeBgColor {
+    0% {
+        background-color: #9CBE8F;
+    }
+
+    50% {
+        background-color: #EFD478;
+    }
+
+    100% {
+        background-color: #D6936D;
+    }
 }
 
 .about-texts {
