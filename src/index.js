@@ -4,6 +4,13 @@ $(document).ready(function(){
 		dots:true,	
 		slidesToShow:1,		
 	});
+
+	$('.gallery-slider').slick({
+		arrows:false,
+		slidesToShow:1,	
+		autoplay: falce,	
+		autoplaySpeed: 500,
+	});
 });
 
 (() => {
