@@ -22,7 +22,19 @@ body {
 
 	background-image: url(../images/background/Backgroud_mobile.png);
 	background-repeat: repeat-y;
-	background-size: auto;
+	background-size: contain;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	body {
+		background-image: url(../images/background/Background_tablet.png);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+		background-image: url(../images/background/Backgroud_desktop.png);
+	}
 }
 
 img {
@@ -55,7 +67,7 @@ img {
 }
 
 .arrow-right::after {
-	content: url('../images/svg/arrow-right.svg');
+	content: url("../images/svg/arrow-right.svg");
 	display: inline-block;
 	margin-left: 4px;
 }
