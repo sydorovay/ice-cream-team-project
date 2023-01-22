@@ -12,7 +12,11 @@
 
 .slider .slick-dots li {
     list-style: none;
-    margin: 0 18px;
+    display: block;
+
+    padding: 0;
+    margin: 0 9px;
+    margin-top: 4px;
 }
 
 .slider .slick-dots li.slick-active button {
@@ -68,23 +72,23 @@
 }
 
 .customer-review-text {
-    max-width: 968px;
+    max-width: 280px;
+    min-height: 256px;
 
     margin: 0;
-    padding: 43px 73px;
+    padding: 35px 39px;
 
     background-color: #84A178;
     border-radius: 24px;
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.88;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2.5833;
+
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--text-color-light);
 }
-
-
 
 .customer-name {
     margin: 0;
