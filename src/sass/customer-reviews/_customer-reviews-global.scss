@@ -4,8 +4,10 @@
 .customer-container {
 
 }
+
 .slider {
     // position: absolute;
+    
 	
 }
 
@@ -64,7 +66,9 @@
 .slick-slider.slick-dotted {}
 
 /* Ограничивающая оболочка */
-.slick-list {}
+.slick-list {
+    overflow: hidden;
+}
 
 /* Лента слайдов */
 .slick-track {
