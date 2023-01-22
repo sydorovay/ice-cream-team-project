@@ -2,10 +2,14 @@
 
 .modal-about-products {
 	max-width: 568px;
+	left: 50%;
+	top: 50%;
 
 	background: var(--text-color-light);
 	border: 2px solid var(--default-color);
 	border-radius: 10px;
+	transition: transform, 300ms ease-in-out;
+
 }
 .backdrop {
 	position: fixed;

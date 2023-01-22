@@ -49,3 +49,9 @@ img {
 	position: fixed;
 	transform: scale(0);
 }
+
+.arrow-right::after {
+	content: url('../images/svg/arrow-right.svg');
+	display: inline-block;
+	margin-left: 4px;
+}
