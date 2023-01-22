@@ -5,6 +5,10 @@
 
 	color: var(--text-color-dark);
 	background-color: var(--text-color-light);
+	
+	background-image: 
+	url('/src/images/background/Backgroud_mobile.png');
+	background-position: center;
 }
 
 .products-header-box {
@@ -74,9 +78,11 @@
     transform: translateY(-50%);
     width: 200px;
     height: 211px;
-  background-image: url('/src/images/products/ice-cream.png');
+    background-image: 
+	url('/src/images/products/ice-cream.png');
     background-position: center;
-    border-radius: 50%;
+	background-size: cover;
+    // border-radius: 50%;
 }
 
 .products-cards-list li:nth-child(3n+2)::before {
@@ -86,9 +92,11 @@
     transform: translateY(-50%);
     width: 200px;
     height: 211px;
-     background-image: url('/src/images/products/coffee.png');
+    background-image: 
+	url('/src/images/products/coffee.png');
     background-position: center;
-    border-radius: 50%;
+	background-size: cover;
+    // border-radius: 50%;
 }
 
 .products-cards-list li:nth-child(3n+3)::before {
@@ -98,9 +106,11 @@
     transform: translateY(-50%);
     width: 200px;
     height: 211px;
-    background-image: url('/src/images/products/drinks.png');
+    background-image: 
+	url('/src/images/products/drinks.png');
     background-position: center;
-    border-radius: 50%;
+	background-size: cover;
+    // border-radius: 50%;
 }
 
 .products-card-title {

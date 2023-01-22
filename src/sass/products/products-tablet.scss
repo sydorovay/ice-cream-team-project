@@ -1,5 +1,11 @@
 @media screen and (min-width: 768px) {
 
+    .products {
+        background-image:
+        url('/src/images/background/Background_tablet.png');
+        background-position: center;
+    }
+
     .products-header-label {
         font-size: 22px;
         line-height: 1.2273;
