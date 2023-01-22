@@ -1,0 +1,56 @@
+<!-- <div class="backdrop is-hidden" data-modal> -->
+<div class="modal-buy-now">
+	<button data-modal-close class="button-close" type="button">
+		<svg class="icon">
+			<use href="./images/sprite.svg#icon-close-black"></use>
+		</svg>
+	</button>
+	<p class="modal-buy-now-title">Buy now</p>
+	<ul class="modal-buy-now-list list">
+		<li class="modal-buy-now-item">
+			<input class="checkbox visually-hidden" type="checkbox" name="checkbox" id="ice-cream">
+			<label class="item-label" for="ice-cream">
+				<span class="item-wrapper ice-cream">
+					<div class="bg-circle"></div>
+					<img class="modal-buy-now-image" srcset="
+					./images/products/ice-cream-small@2x.png 2x, 
+					./images/products/ice-cream-small@3x.png 3x" src="./images/products/ice-cream-small.png" alt="Ice-Cream">
+					<span class="modal-buy-now-text">ice cream</span>
+				</span>
+			</label>
+		</li>
+		<li class="modal-buy-now-item">
+			<input class="checkbox visually-hidden" type="checkbox" name="checkbox" id="ice-coffee">
+			<label class="item-label" for="ice-coffee">
+				<span class="item-wrapper ice-coffee">
+					<div class="bg-circle yellow"></div>
+					<img class="modal-buy-now-image" srcset="
+					./images/products/coffee-small@2x.png 2x, 
+					./images/products/coffe-small@3x.png 3x" src="./images/products/coffee-small.png" alt="ice coffee">
+					<span class="modal-buy-now-text">ice coffee</span>
+				</span>
+			</label>
+		</li>
+		<li class="modal-buy-now-item">
+			<input class="checkbox visually-hidden" type="checkbox" name="checkbox" id="milkshake">
+			<label class="item-label" for="milkshake">
+				<span class="item-wrapper milkshake">
+					<div class="bg-circle brown"></div>
+					<img class="modal-buy-now-image" srcset="
+										./images/products/drinks-small@2x.png 2x, 
+										./images/products/drinks-small@3x.png 3x" src="./images/products/drinks-small.png" alt="milkshake">
+					<span class="modal-buy-now-text">milkshake</span>
+				</span>
+			</label>
+		</li>
+	</ul>
+	<form>
+		<input class="modal-form-input" type="text" name="name" placeholder="Name" required pattern="[a-zA-Zа-яА-Я]+"
+			minlength="2">
+		<input class="modal-form-input" type="tel" name="phone" placeholder="Phone" required
+			pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="XXX-XXX-XX-XX">
+		<textarea class="form-textarea" name="comment" placeholder="Comment"></textarea>
+		<button class="button-submit" type="submit">Submit</button>
+	</form>
+</div>
+</div>
