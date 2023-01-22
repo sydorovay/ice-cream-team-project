@@ -13,6 +13,9 @@ $(document).ready(function(){
 		menu: document.querySelector("[data-menu]"),
 	};
 
+
+
+
 	refs.openMenuBtn.addEventListener("click", toggleMenu);
 	refs.closeMenuBtn.addEventListener("click", toggleMenu);
 
@@ -36,4 +39,5 @@ $(document).ready(function(){
 		document.body.classList.toggle("modal-open");
 		refs1.modal.classList.toggle("is-hidden");
 	}
+	
 })();
