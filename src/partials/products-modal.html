@@ -1,62 +1,86 @@
 <section class="about-modal">
-    <div class="backdrop is-hidden">
-        <div class="modal">
+    <div class="backdrop">
+        <div class="modal-about-products">
             <button class="btn-close" type="button">
                 <!-- <svg class="btn-close-icon" width="13" height="13">
                     <use href="../images/sprite.svg#icon-close-black"></use>
                 </svg> -->
             </button>
             <div>
-                <form>
+                <form class="modal-form-about">
                     <p class="chocolate">Chololate icecream</p>
                     <div class="ice-cream-photo-item">
                         <!-- <img src="../images/products/ice-cream-products.jpg"> -->
                     </div>
-                    <ul>
-                        <li>
-                            <p>320</p>
-                            <p>kcal</p>
+                    <ul class="boxes-list  list">
+                        <li class="boxes">
+                            <p class="grams">320</p>
+                            <p class="calorie">kcal</p>
                         </li>
-                        <li>
-                            <p>4g</p>
-                            <p>Protein...</p>
+                        <li class="boxes">
+                            <p class="grams">4g</p>
+                            <p class="calorie">Protein...</p>
                         </li>
-                        <li>
-                            <p>8,2g</p>
-                            <p>Fats</p>
+                        <li class="boxes">
+                            <p class="grams">8,2g</p>
+                            <p class="calorie">Fats</p>
                         </li>
-                        <li>
-                            <p>40,4g</p>
-                            <p>Carbs</p>
+                        <li class="boxes">
+                            <p class="grams">40,4g</p>
+                            <p class="calorie">Carbs</p>
                         </li>
                     </ul>
-                    <p>Ingredients</p>
-                    <ul>
-                        <li>Milk</li>
-                        <li>Belgian chocolate</li>
-                        <li>Cream</li>
-                        <li>Cocoa powder</li>
-                        <li>Sugar</li>
-                        <li>Vanilla sugar</li>
-                    </ul>
-                    <ul>
-                        <li>100ml</li>
-                        <li>20g</li>
-                        <li>150 ml</li>
-                        <li>30g</li>
-                        <li>40g</li>
-                        <li>10g</li>
-                    </ul>
+                    <p class="ingredients">Ingredients</p>
+                    <div class="column">
+                        <ul class="list">
+                            <li class="items-product">
+                                <p class="product-item">Milk</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">Belgian chocolate</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">Cream</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">Cocoa powder</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">Sugar</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">Vanilla sugar</p>
+                            </li>
+                        </ul>
+                        <ul class="list">
+                            <li class="items-product">
+                                <p class="product-item">100ml</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">20g</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">150 ml</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">30g</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">40g</p>
+                            </li>
+                            <li class="items-product">
+                                <p class="product-item">10g</p>
+                            </li>
+                        </ul>
+                    </div>
                     <label class="form-label" for="name">
                        <input  class="form-input" type="text" name="name" id="name" placeholder="Name"/>
                     </label>
-                    <label for="tel">
+                    <label class="form-label" for="tel">
                         <input  class="form-input" type="tel" name="tel" id="tel" placeholder="Phone"/>
                     </label>
-                    <label for="Comment">
-                        <textarea name="Comment" id="Comment" cols="30" rows="10" placeholder="Comment"></textarea>
-                    </label>
-                    <button type="submit">Submit</button>
+                    <textarea class="form-comment" name="Comment" id="Comment" cols="30" rows="10" placeholder="Comment"></textarea>
+                   <button  class="submit-modal-btn"type="submit">Submit</button>
                 </form>
             </div>
         </div>
