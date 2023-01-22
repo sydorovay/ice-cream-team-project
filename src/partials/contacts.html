@@ -69,22 +69,22 @@
 			>
 		  </li>
 		</ul>
-		<button class="btn-contacts-one button" type="button">Our Locations
+		<button class="btn-contacts-one button" type="button" data-modal-open>Our Locations
 		  <svg class="svg-btn-contacts">
 			<use></use>
 		  </svg> 
-				</button>
-
+		</button>
 		<button class="btn-contacts-two button" type="button" data-modal-open>Franchise
 		  <svg class="svg-btn-contacts">
 			<use ></use>
 		  </svg>
 		</button>
-	        </div>
+	</div>
 
-                <div class="backdrop-franchise is-hidden" data-modal>
-		            <div class="modal">
-			            <form class="franchise-form">
+                	                   <div class="backdrop is-hidden" data-modal>
+		                              <div class="modal">
+			                           <form class="franchise-form">
+
 				                     <div class="franchise-btn-head-1">
 					                 <p class="franchise-btn-head">Thank you for your interest in owning an Ice Cream shop</p>
 				                     </div>
@@ -139,5 +139,26 @@
 		  </button>
 		</div>
 	  </div>
+
+	<!-- Our Locations -->
+	<div class="backdrop is-hidden" data-modal>
+		<div class="modal-locations">
+			<button type="button" class="modal-locations-button" data-modal-close>
+				<svg class="icon" width="12" height="12">
+					<!-- <use href="./images/icons.svg#icon-modalbtn"></use> -->
+				</svg>
+			</button>
+			<h3 class="modal-title">Our Locations</h3>
+			<img-wrapper>
+				<img class="image-location"
+					srcset="./images/contacts/our-locations.png 1x, ./images/contacts/our-locations@2x.png 2x, ./images/contacts/our-locations@3x.png 3x"
+					src="./images/contacts/our-locations.png" alt="Poltava city" width="224" height="199">
+			</img-wrapper>
+			<button type="button" class="open-map-button">
+				<a href="https://khladoprom.com/kontaktyi/" target="_blank" rel="noreferrer noopener" class="link">Open map</a>
+			</button>
+		</div>
+	</div>
+ franchise-btn-csss
 	  <script src="/src/index.js"></script>
 </section>

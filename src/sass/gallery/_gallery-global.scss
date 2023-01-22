@@ -1,0 +1,25 @@
+.gallery {
+
+}
+
+.gallery-slider {
+    list-style-type: none;
+    overflow: hidden;
+
+    max-width: 1013px;
+    border-radius: 24px;
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-slider-item {
+    list-style-type: none;
+
+}
+
+.gallery-slider-photo {
+    display: block;
+    border-radius: 24px;
+}

@@ -4,7 +4,7 @@
     background-color: var(--section-gren-color);
     // min-width: 480px;
     padding: 60px 0;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 27%, rgba(132,161,120,1) 27%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 27%, rgba(132,161,120,1) 27%);
 }
 .contacts-list-item {
     padding: 40px 32px 24px;
@@ -136,5 +136,53 @@
     height: 10px;
 }
 
+// Our Locations MODAL
+.modal-locations {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 280px;
+    height: 365px;
+    padding: 28px;
+    background: var(--text-color-light);
+    border: 2px solid var(--default-color);
+    border-radius: 10px;
+}
+
+.modal-locations-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.open-map-button {
+    display: block;
+    margin: 24px auto 0;
+    width: 134px;
+    height: 42px;
+    background: var(--default-color);
+    border-radius: 10px;
+    border: none;
+}
+
+.open-map-button .link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
 
 
