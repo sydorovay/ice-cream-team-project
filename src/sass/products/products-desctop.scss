@@ -1,5 +1,11 @@
 @media screen and (min-width: 1200px) {
 
+    .products {
+        background-image:
+        url('/src/images/background/Backgroud_desktop.png');
+        background-position: center;
+    }
+
     .products-header-label {
         font-weight: 800;
         font-size: 30px;
@@ -22,8 +28,8 @@
     .products-card {
         padding: 164px 62px 0 62px;
 
-        width: 246px;
-        height: 372px;
+        width: 370px;
+        height: 720px;
     }
 
     .products-cards-list li:nth-child(3n+1)::before {
