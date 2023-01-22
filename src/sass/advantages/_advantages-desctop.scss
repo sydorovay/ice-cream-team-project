@@ -1,5 +1,6 @@
-/* decktop */
-@media screen and (mix-width: 1200px) {
+
+@media screen and (min-width: 1200px) {
+
     .advantages-list{
 
     padding-top: 60px;
@@ -7,14 +8,22 @@
     }
     .advantages-item{
         display: flex;
+
     }
 .advantages-digital{
     max-width: 320px;
-  }
+}
 
+.advantages-text{
+    max-width: 36px;
+margin-right: 16px;
+margin-left: 16px;
+    }
     
 .advantages-text{
     max-width: 368px;
+    text-align: center;
+
 }
 .advantages-item:not(:last-chald){
     margin-right: 32px;
