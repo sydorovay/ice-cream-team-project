@@ -41,11 +41,13 @@
         margin-bottom: 0;
     }
 
-    .image-cow {
-        width: 330px;
-    }
-
     .circle-above-cow {
+        width: 330px;
+        height: 330px;
+    }
+    .circle-above-cow::after {
+        content: "";
+        top: 26px;
         width: 330px;
         height: 330px;
     }

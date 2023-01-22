@@ -21,19 +21,16 @@
         width: 463px;
     }
 
-    .image-cow {
-        width: 490px;
-    }
-
     .circle-above-cow {
         width: 490px;
         height: 490px;
     }
-
-    .image-cow {
+    .circle-above-cow::after {
+        content: "";
         top: 39px;
+        width: 490px;
+        height: 490px;
     }
-
     .about-texts {
         padding-top: 80px;
     }
