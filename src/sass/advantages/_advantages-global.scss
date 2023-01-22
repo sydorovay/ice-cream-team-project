@@ -1,11 +1,3 @@
-
-.container {
-	background-color: rgba(132, 161, 120, 1);
-
-}
-
-advantegas-newstyle
-
 .container-advantages{
     margin-left: 16px;
     margin-left: 16px;
@@ -13,11 +5,7 @@ advantegas-newstyle
 .advantages {
 	background-color: var(--section-gren-color);
 }
-.advantages-card {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+
 .advantages-list {
 	display: flex;
 	justify-content: space-between;
@@ -60,5 +48,5 @@ advantegas-newstyle
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 1.74;
-	color: var(--text-color-light);
-}
+    color: #fcfcfc;
+    }
