@@ -14,8 +14,6 @@ $(document).ready(function(){
 	};
 
 
-
-
 	refs.openMenuBtn.addEventListener("click", toggleMenu);
 	refs.closeMenuBtn.addEventListener("click", toggleMenu);
 
@@ -23,21 +21,10 @@ $(document).ready(function(){
 		document.body.classList.toggle("menu-open");
 		refs.menu.classList.toggle("is-open");
 	}
-	
-// ================ modal ================ 
-	
-	const refs1 = {
-		openModalBtn: document.querySelector("[data-modal-open]"),
-		closeModalBtn: document.querySelector("[data-modal-close]"),
-		modal: document.querySelector("[data-modal]"),
-	};
 
-	refs1.openModalBtn.addEventListener("click", toggleModal);
-	refs1.closeModalBtn.addEventListener("click", toggleModal);
 
-	function toggleModal() {
-		document.body.classList.toggle("modal-open");
-		refs1.modal.classList.toggle("is-hidden");
-	}
-	
-})();
+
+
+
+
+			})();
