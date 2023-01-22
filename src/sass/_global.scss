@@ -16,9 +16,7 @@ ul {
 
 body {
 	min-width: 320px;
-	max-width: 1200px;
 	font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 16px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -29,6 +27,7 @@ img {
 
 .container {
 	width: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
