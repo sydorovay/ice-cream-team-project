@@ -4,10 +4,10 @@
 	padding: 60px auto;
 
 	color: var(--text-color-dark);
-	background-color: var(--text-color-light);
+	/* background-color: var(--text-color-light);
 	
 	background-image: 
-	url('/src/images/background/Backgroud_mobile.png');
+	url('/src/images/background/Backgroud_mobile.png'); */
 	background-position: center;
 }
 
@@ -71,46 +71,43 @@
 	border-radius: 24px;
 }
 
-.products-cards-list li:nth-child(3n+1)::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    transform: translateY(-50%);
-    width: 200px;
-    height: 211px;
-    background-image: 
-	url('/src/images/products/ice-cream.png');
-    background-position: center;
+.products-cards-list li:nth-child(3n + 1)::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
+	width: 200px;
+	height: 211px;
+	background-image: url("/src/images/products/ice-cream.png");
+	background-position: center;
 	background-size: cover;
-    // border-radius: 50%;
+	// border-radius: 50%;
 }
 
-.products-cards-list li:nth-child(3n+2)::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    transform: translateY(-50%);
-    width: 200px;
-    height: 211px;
-    background-image: 
-	url('/src/images/products/coffee.png');
-    background-position: center;
+.products-cards-list li:nth-child(3n + 2)::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
+	width: 200px;
+	height: 211px;
+	background-image: url("/src/images/products/coffee.png");
+	background-position: center;
 	background-size: cover;
-    // border-radius: 50%;
+	// border-radius: 50%;
 }
 
-.products-cards-list li:nth-child(3n+3)::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    transform: translateY(-50%);
-    width: 200px;
-    height: 211px;
-    background-image: 
-	url('/src/images/products/drinks.png');
-    background-position: center;
+.products-cards-list li:nth-child(3n + 3)::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
+	width: 200px;
+	height: 211px;
+	background-image: url("/src/images/products/drinks.png");
+	background-position: center;
 	background-size: cover;
-    // border-radius: 50%;
+	// border-radius: 50%;
 }
 
 .products-card-title {
