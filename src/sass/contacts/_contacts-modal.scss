@@ -5,7 +5,7 @@
     z-index: 100;
     width: 100%;
     height: auto;
-    background-color: #fcfcfc;
+    background-color: var(--text-color-light);
     opacity: 1;
     visibility: visible;
     transition: 250ms;
@@ -29,8 +29,8 @@
     display: flex;
     width: auto;
     height: auto;
-    background: #FCFCFC;
-    border: 2px solid #F8D24E;
+    background: var(--text-color-light);
+    border: 2px solid var(--default-color);
     border-radius: 10px;
     align-items: center;
     position: absolute;
@@ -47,7 +47,6 @@
 
 .franchise-btn-head{
     font-family: 'Seymour One';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -65,8 +64,6 @@
 
 .franchise-btn-text{
         text-align: left;
-        font-family: 'Montserrat';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 140%;
@@ -83,8 +80,7 @@
             align-items: center;}
 
 .contact-form-modal{
-        font-family: 'Montserrat';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         box-sizing: border-box;
@@ -98,8 +94,7 @@
         width: auto;}
 
 .contact-form-message{
-            font-family: 'Montserrat';
-            font-style: normal;
+            
             font-weight: 400;
             font-size: 14px;
             line-height: 14px;
@@ -121,13 +116,8 @@
         }
 
 .franchise-submit{
-
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 600;
             font-size: 12px;
             line-height: 15px;
-
             width: 114px;
             height: 42px;
             background: var(--default-color);
@@ -226,10 +216,8 @@
     }
 
     .modal{
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-bottom: 24px;
-        padding-top: 24px;
+        
+        padding: 24px 60px;
     }
 
     .button-close{
