@@ -7,8 +7,10 @@
     }
     .advantages-item{
         display: flex;
-margin-right: 16px;
-margin-left: 16px;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 16px;
+        margin-left: 16px;
        
       
     }
@@ -18,14 +20,24 @@ margin-left: 16px;
 
 }
 }
+@media screen and (min-width: 1200px) {
+    .advantages-list{
 
-
-
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    .advantages-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 16px;
+        margin-left: 16px;
+       
+      
+    }
 .advantages-digital{
-    max-width: 230px;
-
+    max-width: 368px;
+   
 
 }
-
-
+}
