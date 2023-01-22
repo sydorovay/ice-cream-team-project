@@ -1,31 +1,23 @@
-/* Tablet-decktop */
-@media screen and (min-width: 768px) {
+/* decktop */
+@media screen and (mix-width: 1200px) {
     .advantages-list{
 
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     }
     .advantages-item{
         display: flex;
-margin-right: 16px;
-margin-left: 16px;
-       
-      
     }
 .advantages-digital{
-    max-width: 230px;
-   
-
-}
-}
-
-
+    max-width: 320px;
+  }
 
     
-.advantages-digital{
-    max-width: 230px;
-
-
+.advantages-text{
+    max-width: 368px;
 }
-
+.advantages-item:not(:last-chald){
+    margin-right: 32px;
+}
+}
 
