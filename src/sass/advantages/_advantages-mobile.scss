@@ -1,18 +1,15 @@
 @media screen and (max-width: 768px) {
-    .advantages-list{
-    flex-direction: column;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    }
-    .advantages-item{
-        display: flex;
-        /* column-gap: 20px; */
-      
-    }
-.advantages-digital{
-    max-width: 230px;
-    /* max-height: 40px; */
-
+	.advantages-list {
+		flex-direction: column;
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+	.advantages-item {
+		display: flex;
+		/* column-gap: 20px; */
+	}
+	.advantages-digital {
+		max-width: 230px;
+		/* max-height: 40px; */
+	}
 }
-}
-   
