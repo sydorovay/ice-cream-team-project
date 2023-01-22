@@ -19,6 +19,40 @@ body {
 	font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
 	margin: 0 auto;
 	padding: 0;
+
+	background-image: url(../images/background/Backgroud_mobile.png);
+	background-repeat: repeat-y;
+	background-size: contain;
+}
+
+@media screen and (min-resolution: 2dppx) {
+	body {
+		background-image: url(../images/background/Backgroud_mobile@2x.png);
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	body {
+		background-image: url(../images/background/Background_tablet.png);
+	}
+
+	@media screen and (min-resolution: 2dppx) {
+		body {
+			background-image: url(../images/background/Background_tablet@2x.png);
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+		background-image: url(../images/background/Backgroud_desktop.png);
+	}
+
+	@media screen and (min-resolution: 2dppx) {
+		body {
+			background-image: url(../images/background/Backgroud_desktop@2x.png);
+		}
+	}
 }
 
 img {
@@ -51,11 +85,7 @@ img {
 }
 
 .arrow-right::after {
-	content: url('../images/svg/arrow-right.svg');
+	content: url("../images/svg/arrow-right.svg");
 	display: inline-block;
 	margin-left: 4px;
-}
-
-.button {
-	display: block;
 }

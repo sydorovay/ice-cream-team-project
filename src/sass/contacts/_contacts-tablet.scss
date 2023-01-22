@@ -1,62 +1,67 @@
-@media screen and (min-width:768px) {
-    // .contacts-container {
-    //     width: 768px;
-    //     padding: 0 32px;
-    // }
-    .contacts {
-        background-color: var(--section-gren-color);
-        background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(132,161,120,1) 50%);
-    }
-    .contacts-list {
-        display: flex;
-        justify-content: space-between;
-    }
-    .contacts-list-item {
-        width: 224px;
-        margin: 0;
-        padding: 40px 24px;
-    }
-    .wrapper-text-contacts {
-        min-width: 73px;
-        height: 30px;
-        padding: 4px 13px;
-        border-radius: 6px;
-        font-size: 16px;
-        line-height: 1.37;
-    }
-    .place-text {
-        font-size: 14px;
-        line-height: 1.85;
-        margin: 32px 0 12px;
-    }
-    .address {
-        font-size: 14px;
-        line-height: 1.85;
-        padding-bottom: 32px;
-        margin-bottom: 32px;
-    }
-    .working-days-text, .working-time-text {
-        font-size: 14px;
-        line-height: 1.85;
-    }
-    .wrapper-text-wd {
-        padding-bottom: 32px;
-        margin-bottom: 32px;
-    }
-    .contacts-list-tel {
-        font-size: 14px;
-        line-height: 1.5;
-        margin-bottom: 4px;
-    }
-    .contacts-list-mail {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-    .btn-contacts-one {
-        display: inline-block;
-        margin: 40px 16px 0 148px;
-    }
-    .btn-contacts-two {
-        display: inline-block;
-    } 
+@media screen and (min-width: 768px) {
+	// .contacts-container {
+	//     width: 768px;
+	//     padding: 0 32px;
+	// }
+	.contacts {
+		background-color: var(--section-gren-color);
+		background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 50%,
+			rgba(132, 161, 120, 1) 50%
+		);
+	}
+	.contacts-list {
+		display: flex;
+		justify-content: space-between;
+	}
+	.contacts-list-item {
+		width: 224px;
+		margin: 0;
+		padding: 40px 24px;
+	}
+	.wrapper-text-contacts {
+		min-width: 73px;
+		height: 30px;
+		padding: 4px 13px;
+		border-radius: 6px;
+		font-size: 16px;
+		line-height: 1.37;
+	}
+	.place-text {
+		font-size: 14px;
+		line-height: 1.85;
+		margin: 32px 0 12px;
+	}
+	.address {
+		font-size: 14px;
+		line-height: 1.85;
+		padding-bottom: 32px;
+		margin-bottom: 32px;
+	}
+	.working-days-text,
+	.working-time-text {
+		font-size: 14px;
+		line-height: 1.85;
+	}
+	.wrapper-text-wd {
+		padding-bottom: 32px;
+		margin-bottom: 32px;
+	}
+	.contacts-list-tel {
+		font-size: 14px;
+		line-height: 1.5;
+		margin-bottom: 4px;
+	}
+	.contacts-list-mail {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	.btn-contacts-one {
+		display: inline-block;
+		margin: 40px 16px 0 148px;
+	}
+	.btn-contacts-two {
+		display: inline-block;
+	}
 }
