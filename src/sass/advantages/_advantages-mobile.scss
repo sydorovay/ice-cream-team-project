@@ -1,13 +1,19 @@
 @media screen and (max-width: 768px) {
 	.advantages-list {
 		flex-direction: column;
-		padding-top: 32px;
 		padding-bottom: 32px;
 	}
-	.advantages-item {
-		display: flex;
-	}
+
 	.advantages-digital {
+		margin-bottom: 12px;
 		max-width: 230px;
+	}
+
+	.advantages-text {
+		width: 230px;
+	}
+
+	.advantages-ico-bg {
+		margin-bottom: 16px;
 	}
 }
