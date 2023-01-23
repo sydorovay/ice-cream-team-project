@@ -21,8 +21,10 @@ body {
 	padding: 0;
 
 	background-image: url(../images/background/Backgroud_mobile.png);
+
 	background-repeat: repeat-y;
 	background-size: contain;
+	background-position: center;
 }
 
 @media screen and (min-resolution: 2dppx) {
