@@ -11,14 +11,10 @@
 	}
 
 	.advantages-text {
-		max-width: 36px;
-		margin-right: 16px;
-		margin-left: 16px;
-	}
-
-	.advantages-text {
 		max-width: 368px;
 		text-align: center;
+        margin-right: 16px;
+		margin-left: 16px;
 	}
 	.advantages-item:not(:last-chald) {
 		margin-right: 32px;
