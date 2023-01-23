@@ -50,12 +50,15 @@
 	line-height: 1.74;
 	color: var(--text-color-light);
 }
-.advantages-icon-cow::before {
-	content: url("../images/advantages/cow.png");
+.advantages-item1::before {
+	content: '';
+	display: block;
+	background: url('/src/images/advantages/cow.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: var(--default-color);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
 }
-.advantages-icon-weight::before {
-	content: url("../images/advantages/weight.png");
-}
-.advantages-icon-ice::before {
-	content: url("../images/advantages/ice-cream.png");
-}
+
