@@ -24,6 +24,7 @@
     .circle-above-cow {
         width: 490px;
         height: 490px;
+        box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
     }
     .circle-above-cow::after {
         content: "";
