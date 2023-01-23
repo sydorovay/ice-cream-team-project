@@ -33,10 +33,14 @@
 	font-weight: 700;
 }
 
-.button-buy-now::after {
-	content: url('../images/svg/arrow-right.svg');
+.arrow-right::after {
+	content: '';
+	display: block;
+	background: url('/src/images/svg/arrow-right.svg');
 	display: inline-block;
 	margin-left: 4px;
+	color: red;
+	
 }
 
 .button-buy-now {
