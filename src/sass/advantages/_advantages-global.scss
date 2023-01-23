@@ -91,8 +91,30 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 8a509e0571bb4489859112993f583fd69609a327
+.advantages-item2::before {
+	content: '';
+	display: block;
+	background: url('/src/images/advantages/weight.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: var(--default-color);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.advantages-item3::before {
+	content: '';
+	display: block;
+	background: url('/src/images/advantages/ice-cream.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: var(--default-color);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
