@@ -26,6 +26,7 @@
 	}
 
 	.products-button {
+		display: block;
 		border-radius: 8px;
 		padding: 9px 24px;
 		margin-right: 12px;
@@ -40,6 +41,7 @@
 	}
 
 	.menu-container {
+    text-align: center;
 		max-width: 480px;
 		padding: 12px 20px 64px 32px;
 		margin: auto;

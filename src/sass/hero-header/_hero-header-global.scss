@@ -33,26 +33,28 @@
 	font-weight: 700;
 }
 
-.arrow-right::after {
-	content: '';
-	display: block;
-	background: url('/src/images/svg/arrow-right.svg');
-	display: inline-block;
+.button-buy-now{
+	text-decoration: none;
+	font-weight: 600;
+	align-items: center;
+	line-height: 1.2;
+	text-decoration: none;
+	padding: 12px 35px;
+	border-radius: 10px;
+	bottom: 64px;
 	
-	margin-left: 4px;
-	color: red;
+	border: none;
+	color: var(--text-hover-disabled-color);
+	background-color: var(--default-color);
+}
+
+.arrow-on {
+	display: inline-block;
+	fill: currentColor;
 	
 }
 
 .button-buy-now {
-	display: block;
-	align-items: center;
-	line-height: 1.2;
-
-	padding: 12px 35px;
-	bottom: 64px;
-	border-radius: 10px;
-	border: none;
 	background-color: var(--default-color);
 	color: var(--text-hover-disabled-color);
 }
