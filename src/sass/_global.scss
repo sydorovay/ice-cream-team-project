@@ -27,7 +27,6 @@ body {
 	background-position: center;
 }
 
-
 @media screen and (min-resolution: 2dppx) {
 	body {
 		background-image: url(../images/background/Backgroud_mobile@2x.png);
@@ -89,13 +88,14 @@ img {
 }
 
 .arrow-right {
+	margin-left: 7px;
 	display: inline-block;
 	fill: currentColor;
 }
 .overlay {
 	opacity: 0;
 	visibility: hidden;
-min-width: 320px;
+	min-width: 320px;
 	position: fixed;
 	top: 0;
 	left: 0;
