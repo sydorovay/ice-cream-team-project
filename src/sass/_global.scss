@@ -108,29 +108,26 @@ img {
 }
 
 .modal {
+	/* hidden  */
+	opacity: 0;
+	visibility: hidden;
 
-    /* hidden  */
-    opacity: 0;
-    visibility: hidden;
-
-    /*  Центрування */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 500;
+	/*  Центрування */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 500;
 }
 
 .modal.active,
 .overlay.active {
-    opacity: 1;
-    visibility: visible;
+	opacity: 1;
+	visibility: visible;
 }
 
 .modal__cross.js-modal-close {
-	width: 12px;
-	height: 12px;
-
+	width: 20px;
 	position: absolute;
 	top: 16;
 	right: 16;

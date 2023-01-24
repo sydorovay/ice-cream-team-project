@@ -1,45 +1,35 @@
-
-
 .modal {
 	position: fixed;
 	opacity: 0;
-    visibility: hidden;
+	visibility: hidden;
 
 	max-width: 568px;
 	left: 50%;
 	top: 50%;
-    transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 
-     padding:28px 20px;
+	padding: 28px 20px;
 
 	background: var(--text-color-light);
 	border: 2px solid var(--default-color);
 	border-radius: 10px;
 	opacity: 1;
 	transition: transform, 300ms ease-in-out;
-
 }
 
-
-
-
 .modal-form-about {
-
 	position: absolute;
-		left: 50%;
+	left: 50%;
 	top: 50%;
-
-
 	padding: 32px 40px;
 	display: flex;
 	flex-direction: column;
-		opacity: 1;
-		transition: transform, 300ms ease-in-out;
+	opacity: 1;
+	transition: transform, 300ms ease-in-out;
 }
 
-
 .chocolate {
-	font-family: "Seymour One";
+	font-family: 'Seymour One';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -108,7 +98,7 @@
 }
 
 .product-item {
-	font-family: "Montserrat";
+	font-family: 'Montserrat';
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 176%;
@@ -157,7 +147,7 @@
 }
 
 ::placeholder {
-	font-family: "Montserrat";
+	font-family: 'Montserrat';
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 140%;
