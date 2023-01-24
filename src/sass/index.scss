@@ -1,18 +1,19 @@
 @import './common';
 @import './global';
 @import './vars';
+@import './modal';
+
 
 @import './hero-header/hero-header-global';
 @import './hero-header/hero-header-mobile';
 @import './hero-header/hero-header-tablet';
 @import './hero-header/hero-header-desctop';
-@import './modal/buy-now';
+
 
 @import './products/products-global';
 @import './products/products-mobile';
 @import './products/products-tablet';
 @import './products/products-desctop';
-@import './products/products-modal';
 
 @import './about/about-global';
 @import './about/about-mobile';
@@ -43,3 +44,8 @@
 @import './footer/footer-mobile';
 @import './footer/footer-tablet';
 @import './footer/footer-desctop';
+
+@import './modal/buy-now';
+
+@import './modal/ingredients';
+@import './modal/franchise.scss';
