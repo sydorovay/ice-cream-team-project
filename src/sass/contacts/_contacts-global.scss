@@ -1,188 +1,188 @@
-
 /* CONTACTS */
 .contacts {
-    background-color: var(--section-gren-color);
-    // min-width: 480px;
-    padding: 60px 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 27%, rgba(132,161,120,1) 27%);
+	background-color: var(--section-gren-color);
+	// min-width: 480px;
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0) 27%,
+		rgba(132, 161, 120, 1) 27%
+	);
 }
 .contacts-list-item {
-    padding: 40px 32px 24px;
-    width: 280px;
-    margin: 0 auto 16px;
-    background-color: var(--text-color-light);
-    border-radius: 24px;
-    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+	padding: 40px 32px 24px;
+	width: 280px;
+	margin: 0 auto 16px;
+	background-color: var(--text-color-light);
+	border-radius: 24px;
+	box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
 }
-.contacts-list-item:nth-child(3){
-    margin-bottom: 0;
+.contacts-list-item:nth-child(3) {
+	margin-bottom: 0;
 }
 .wrapper-text-contacts {
-    display: inline-block;
-    min-width: 80px;
-    height: 22px;
-    background-color: var(--default-color);
-    padding: 4px 22px;
-    border-radius: 4px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.04em;
-    color: var(--text-coror-dark);
+	display: inline-block;
+	min-width: 80px;
+	height: 22px;
+	background-color: var(--default-color);
+	padding: 4px 22px;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.04em;
+	color: var(--text-coror-dark);
 }
 .wrapper-text-week {
-    margin-bottom: 8px;
+	margin-bottom: 8px;
 }
 .place-text {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.83;
-    letter-spacing: 0.04em;
-    color: var(--text-coror-dark);
-    margin: 20px 0 8px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.83;
+	letter-spacing: 0.04em;
+	color: var(--text-coror-dark);
+	margin: 20px 0 8px;
 }
 .address {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.83;
-    letter-spacing: 0.04em;
-    color: var(--add-text-color);
-    padding-bottom: 24px;
-    margin-bottom: 24px;
-    border-bottom: 1px solid #E1E1E1;
-    cursor: pointer;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.83;
+	letter-spacing: 0.04em;
+	color: var(--add-text-color);
+	padding-bottom: 24px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #e1e1e1;
+	cursor: pointer;
 }
 .address:hover,
 .address:focus {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 .working-days-text {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.83;
-    color: var(--text-coror-dark);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.83;
+	color: var(--text-coror-dark);
 }
 .working-time-text {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.83;
-    color: #ABABAB;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.83;
+	color: #ababab;
 }
 .wrapper-text-wd {
-    padding-bottom: 24px;
-    margin-bottom: 24px;
-    border-bottom: 1px solid #E1E1E1;
+	padding-bottom: 24px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #e1e1e1;
 }
 .contacts-list-tel {
-    display: block;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.58;
-    color: var(--text-coror-dark);
-    margin-bottom: 6px;
+	display: block;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.58;
+	color: var(--text-coror-dark);
+	margin-bottom: 6px;
 }
 .contacts-list-mail {
-    display: block;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.58;
-    color: var(--text-coror-dark);
+	display: block;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.58;
+	color: var(--text-coror-dark);
 }
 .btn-contacts-one {
-    display: block;
-    margin: 20px auto 16px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.28;
-    color: var(--text-coror-dark);
-    width: 196px;
-    height: 42px;
-    border-radius: 10px;
-    border: #F8D24E;
-    background-color: var(--default-color);
-    padding: 0;
+	display: block;
+	margin: 20px auto 16px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.28;
+	color: var(--text-coror-dark);
+	width: 196px;
+	height: 42px;
+	border-radius: 10px;
+	border: #f8d24e;
+	background-color: var(--default-color);
+	padding: 0;
 }
 .btn-contacts-one:hover {
-    background-color: var(--hover-color);
+	background-color: var(--hover-color);
 }
 .btn-contacts-one:focus {
-    background-color: var(--hover-color);
-    color: #FFFFFF;
+	background-color: var(--hover-color);
+	color: #ffffff;
 }
 .btn-contacts-two {
-    display: block;
-    margin: 0 auto ;
-    padding: 0;
-    width: 196px;
-    height: 42px;
-    border-radius: 10px;
-    border: 2px solid var(--default-color);
-    background-color: transparent;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.28;
-    color: var(--text-hover-disabled-color);
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 196px;
+	height: 42px;
+	border-radius: 10px;
+	border: 2px solid var(--default-color);
+	background-color: transparent;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.28;
+	color: var(--text-hover-disabled-color);
 }
 .btn-contacts-two:hover {
-    border: 2px solid var(--hover-color);
+	border: 2px solid var(--hover-color);
 }
 .btn-contacts-two:focus {
-    border: 2px solid var(--hover-color);
-    color: #FFFFFF;
+	border: 2px solid var(--hover-color);
+	color: #ffffff;
 }
 .svg-btn-contacts {
-    width: 5px;
-    height: 10px;
+	width: 5px;
+	height: 10px;
 }
 
 // Our Locations MODAL
 .modal-locations {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    width: 280px;
-    height: 365px;
-    padding: 28px;
-    background: var(--text-color-light);
-    border: 2px solid var(--default-color);
-    border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(1);
+	width: 280px;
+	height: 365px;
+	padding: 28px;
+	background: var(--text-color-light);
+	border: 2px solid var(--default-color);
+	border-radius: 10px;
 }
 
 .modal-locations-button {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    border: none;
-    background-color: black;
-    border-radius: 50%;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border: none;
+	background-color: black;
+	border-radius: 50%;
 }
 
 .open-map-button {
-    display: block;
-    margin: 24px auto 0;
-    width: 134px;
-    height: 42px;
-    background: var(--default-color);
-    border-radius: 10px;
-    border: none;
+	display: block;
+	margin: 24px auto 0;
+	width: 134px;
+	height: 42px;
+	background: var(--default-color);
+	border-radius: 10px;
+	border: none;
 }
 
 .open-map-button .link {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.25;
-    text-align: center;
-    text-decoration: none;
-    color: var(--text-color-dark);
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.25;
+	text-align: center;
+	text-decoration: none;
+	color: var(--text-color-dark);
 }
-
-
