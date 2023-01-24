@@ -1,6 +1,5 @@
 @media screen and (min-width: 1200px) {
-	.advantages-list {
-		padding-top: 60px;
+	.advantages {
 		padding-bottom: 60px;
 	}
 	.advantages-item {
@@ -13,7 +12,7 @@
 	.advantages-text {
 		max-width: 368px;
 		text-align: center;
-        margin-right: 16px;
+		margin-right: 16px;
 		margin-left: 16px;
 	}
 	.advantages-item:not(:last-chald) {

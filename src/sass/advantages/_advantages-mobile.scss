@@ -1,8 +1,9 @@
 @media screen and (max-width: 768px) {
+	.advantages {
+		padding-bottom: 32px;
+	}
 	.advantages-list {
 		flex-direction: column;
-		padding-top: 32px;
-		padding-bottom: 32px;
 	}
 	.advantages-item {
 		display: flex;
