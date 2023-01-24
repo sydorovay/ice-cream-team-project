@@ -289,12 +289,98 @@
 <!-- Модалка 5 -->
 <!-- Our location modal -->
 
-<div></div>
+<div class="modal-locations modal" data-modal="5">
+	<button type="button" class="modal-locations-button" data-modal-close>
+		<svg class="icon" width="12" height="12">
+			<use href="./images/sprite.svg#icon-close-black"></use>
+		</svg>
+	</button>
+	<h3 class="modal-title">Our Locations</h3>
+	<img-wrapper>
+		<img
+			class="image-location"
+			srcset="
+				./images/contacts/our-locations.png    1x,
+				./images/contacts/our-locations@2x.png 2x,
+				./images/contacts/our-locations@3x.png 3x
+			"
+			src="./images/contacts/our-locations.png"
+			alt="Poltava city"
+			width="224"
+			height="199"
+		/>
+	</img-wrapper>
+	<button type="button" class="open-map-button">
+		<a
+			href="https://khladoprom.com/kontaktyi/"
+			target="_blank"
+			rel="noreferrer noopener"
+			class="link"
+			>Open map</a
+		>
+	</button>
+</div>
 
 <!-- Модалка 6 -->
 <!--  Franchise modal -->
 
-<div></div>
+<div class="modal" data-modal="6">
+	<form class="franchise-form">
+		<div class="franchise-btn-head-1">
+			<p class="franchise-btn-head">
+				Thank you for your interest in owning an Ice Cream shop
+			</p>
+		</div>
+		<div class="franchise-btn-text-1">
+			<p class="franchise-btn-text">
+				Due to the overwhelming volume of franchise requests we are not
+				accepting new franchisee applications at this time. Once the application
+				process resumes, we will contact you for further information. Please
+				fill out the contact information below and we will reach out for
+				additional information. We appreciate your patience.
+			</p>
+		</div>
+		<div class="inputs">
+			<label class="contact-form-one">
+				<input
+					class="contact-form-modal name"
+					type="text"
+					name="user_name"
+					autocomplete="off"
+					placeholder="Name"
+				/>
+			</label>
+			<label class="contact-form-one">
+				<input
+					class="contact-form-modal phone"
+					type="tel"
+					name="user_phone"
+					autocomplete="off"
+					placeholder="Phone"
+				/>
+			</label>
+			<label class="contact-form-one">
+				<input
+					class="contact-form-modal email"
+					type="email"
+					name="user_name"
+					required
+					autocomplete="off"
+					placeholder="Email"
+				/>
+			</label>
+			<textarea class="contact-form-message" placeholder="Comment"></textarea>
+		</div>
+		<div class="franchise-submit-btn">
+			<button class="franchise-submit">Submit</button>
+		</div>
+	</form>
+	<button type="button" class="button-close" data-modal-close>
+		<!-- <svg class="icon-close">
+			  <use href="./images/sprite.svg#icon-close-black"></use>
+			</svg> -->
+	</button>
+</div>
 
 <!-- <div class="modal" data-modal="1">
 	<svg
