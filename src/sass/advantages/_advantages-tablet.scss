@@ -1,7 +1,9 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+	.advantages {
+		padding-bottom: 60px;
+	}
 	.advantages-list {
-		margin-right: 76px;
-		margin-left: 76px;
+		justify-content: space-between;
 	}
 	.advantages-item {
 		max-width: 152px;
@@ -12,5 +14,15 @@
 	.advantages-text {
 		max-width: 152px;
 		text-align: center;
+
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.advantages-digital {
+		max-width: 230px;
+		margin-bottom: 12px;
+		margin-top: 32px;
+		font-size: 48px;
 	}
 }

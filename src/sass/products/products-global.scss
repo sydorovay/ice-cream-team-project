@@ -1,7 +1,7 @@
 /* PRODUCTS */
 
 .products {
-	padding: 60px auto;
+	padding: 60px;
 
 	color: var(--text-color-dark);
 	/* background-color: var(--text-color-light);
@@ -14,7 +14,6 @@
 .products-header-box {
 	display: flex;
 	flex-direction: column;
-	margin: 60px auto;
 }
 
 .products-header-label {
@@ -28,7 +27,7 @@
 .products-header {
 	margin: 12px 0 0 0;
 
-	font-family: "Seymour One";
+	font-family: 'Seymour One';
 	font-size: 30px;
 	line-height: 1.2667;
 	text-align: center;
@@ -72,39 +71,39 @@
 }
 
 .products-cards-list li:nth-child(3n + 1)::before {
-	content: "";
+	content: '';
 	position: absolute;
 	top: 0;
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url("/src/images/products/ice-cream.png");
+	background-image: url('/src/images/products/ice-cream.png');
 	background-position: center;
 	background-size: cover;
 	// border-radius: 50%;
 }
 
 .products-cards-list li:nth-child(3n + 2)::before {
-	content: "";
+	content: '';
 	position: absolute;
 	top: 0;
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url("/src/images/products/coffee.png");
+	background-image: url('/src/images/products/coffee.png');
 	background-position: center;
 	background-size: cover;
 	// border-radius: 50%;
 }
 
 .products-cards-list li:nth-child(3n + 3)::before {
-	content: "";
+	content: '';
 	position: absolute;
 	top: 0;
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url("/src/images/products/drinks.png");
+	background-image: url('/src/images/products/drinks.png');
 	background-position: center;
 	background-size: cover;
 	// border-radius: 50%;
