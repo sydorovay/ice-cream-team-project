@@ -16,7 +16,7 @@ ul {
 
 body {
 	min-width: 320px;
-	font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
 	margin: 0 auto;
 	padding: 0;
 
@@ -72,6 +72,7 @@ img {
 }
 
 .link {
+	display: block;
 	text-decoration: none;
 }
 
@@ -86,4 +87,8 @@ img {
 	transform: scale(0);
 }
 
-
+.arrow-right {
+	display: inline-block;
+	fill: currentColor;
+	z-index: 2;
+}
