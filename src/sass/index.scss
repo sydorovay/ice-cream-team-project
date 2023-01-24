@@ -1,6 +1,8 @@
 @import './common';
 @import './global';
 @import './vars';
+@import './modal.scss';
+
 
 @import './hero-header/hero-header-global';
 @import './hero-header/hero-header-mobile';
@@ -38,8 +40,10 @@
 @import './contacts/contacts-mobile';
 @import './contacts/contacts-tablet';
 @import './contacts/contacts-desctop';
+@import './modal/franchise.scss';
 
 @import './footer/footer-global';
 @import './footer/footer-mobile';
 @import './footer/footer-tablet';
 @import './footer/footer-desctop';
+
