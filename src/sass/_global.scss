@@ -17,7 +17,7 @@ ul {
 body {
 	min-width: 320px;
 	font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
-	margin: 0 auto;
+	margin: auto;
 	padding: 0;
 
 	background-image: url(../images/background/Backgroud_mobile.png);
@@ -26,6 +26,7 @@ body {
 	background-size: contain;
 	background-position: center;
 }
+
 
 @media screen and (min-resolution: 2dppx) {
 	body {
@@ -90,5 +91,17 @@ img {
 .arrow-right {
 	display: inline-block;
 	fill: currentColor;
-	z-index: 2;
+}
+.overlay {
+	opacity: 0;
+	visibility: hidden;
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+
+	background: rgba(46, 47, 66, 0.4);
+	transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
