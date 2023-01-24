@@ -34,14 +34,14 @@
 
 	/* ----------------- menu-nav ------------------- */
 	.navigation::before {
-		content: "";
-		background-image: "../img/logo-mobile.png";
+		content: '';
+		background-image: '../img/logo-mobile.png';
 		display: block;
 		margin-bottom: 51px;
 	}
 
 	.menu-container {
-    text-align: center;
+		text-align: center;
 		max-width: 480px;
 		padding: 12px 20px 64px 32px;
 		margin: auto;
@@ -113,11 +113,13 @@
 /* ================== tablet =========================== */
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+	.hero-header {
+		padding-top: 20px;
+	}
 	.container {
 		max-width: 768px;
 		padding-left: 32px;
 		padding-right: 32px;
-		padding-top: 20px;
 	}
 
 	.menu {

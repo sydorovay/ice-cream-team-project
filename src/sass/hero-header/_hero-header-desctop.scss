@@ -1,9 +1,11 @@
 @media screen and (min-width: 1199px) {
+	.hero-header {
+		padding-top: 18px;
+	}
 	.container {
 		max-width: 1200px;
 		padding-left: 16px;
 		padding-right: 16px;
-		padding-top: 8px;
 	}
 
 	.menu-hamburger,
