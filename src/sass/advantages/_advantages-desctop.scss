@@ -7,14 +7,19 @@
 		display: flex;
 	}
 	.advantages-digital {
-		max-width: 320px;
+		margin-bottom: 12px;
+		margin-top: 40px;
+		font-size: 58px;
 	}
 
 	.advantages-text {
-		max-width: 368px;
+		width: 368px;
 		text-align: center;
-        margin-right: 16px;
+		margin-right: 16px;
 		margin-left: 16px;
+
+		font-size: 16px;
+		font-weight: 400;
 	}
 	.advantages-item:not(:last-chald) {
 		margin-right: 32px;
