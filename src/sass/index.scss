@@ -8,13 +8,12 @@
 @import './hero-header/hero-header-mobile';
 @import './hero-header/hero-header-tablet';
 @import './hero-header/hero-header-desctop';
-@import './modal/buy-now';
+
 
 @import './products/products-global';
 @import './products/products-mobile';
 @import './products/products-tablet';
 @import './products/products-desctop';
-@import './products/products-modal';
 
 @import './about/about-global';
 @import './about/about-mobile';
@@ -40,10 +39,13 @@
 @import './contacts/contacts-mobile';
 @import './contacts/contacts-tablet';
 @import './contacts/contacts-desctop';
-@import './modal/franchise.scss';
 
 @import './footer/footer-global';
 @import './footer/footer-mobile';
 @import './footer/footer-tablet';
 @import './footer/footer-desctop';
 
+@import './modal/buy-now';
+
+@import './modal/about-products';
+@import './modal/franchise.scss';
