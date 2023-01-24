@@ -23,14 +23,6 @@
 	visibility: visible;
 }
 
-.modal__cross,
-.js-modal-close {
-	position: absolute;
-	top: 16.33px;
-	right: 16.48px;
-	cursor: pointer;
-	z-index: 10000;
-}
 
 .modal-buy-now .icon {
 	width: 11.11px;
@@ -292,11 +284,5 @@
 	.button-submit {
 		font-size: 14px;
 		width: 121px;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.modal-buy-now {
-		position: fixed;
 	}
 }

@@ -1,208 +1,169 @@
+.modal {
+	position: fixed;
+	opacity: 0;
+	visibility: hidden;
 
+	max-width: 568px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 
-// .modal-about-products {
-// 	position: absolute;
-// 	max-width: 568px;
-// 	left: 50%;
-// 	top: 50%;
-// transform: translate(-50%, -50%);
+	padding: 28px 20px;
 
-// padding:28px 20px;
+	background: var(--text-color-light);
+	border: 2px solid var(--default-color);
+	border-radius: 10px;
+	opacity: 1;
+	transition: transform, 300ms ease-in-out;
+}
 
-// 	background: var(--text-color-light);
-// 	border: 2px solid var(--default-color);
-// 	border-radius: 10px;
-// 	opacity: 1;
-// 	transition: transform, 300ms ease-in-out;
+.modal-form-about {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	padding: 32px 40px;
+	display: flex;
+	flex-direction: column;
+	opacity: 1;
+	transition: transform, 300ms ease-in-out;
+}
 
-// }
-// .backdrop {
-// 	position: fixed;
-// 	width: 100%;
-// 	height: 100%;
+.chocolate {
+	font-family: 'Seymour One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	color: #131313;
+}
 
-// 	top: 0;
-// 	left: 0;
-// 	opacity: 1;
-// 	z-index: 50;
-// 	overflow-y: scroll;
-// 	transform: translate(-50%, -100%);
-// 	background-color: rgba(46, 47, 66, 0.4);
-// 	transition: transform, 300ms ease-in-out;
-// }
+.boxes {
+	display: flex;
+	width: 65px;
+	height: 90px;
+	border: 2px solid #9cbe8f;
+	border-radius: 40px;
+	display: inline-table;
+}
 
-// .backdrop.is-hidden {
-// 	visibility: hidden;
-// 	opacity: 0;
-// 	pointer-events: none;
-// }
+.boxes-list {
+	display: flex;
+	padding-top: 24px;
+	justify-content: center;
+}
 
-// .backdrop.is-hidden .modal-about-products {
-	
-// 	top: 0;
-// 	opacity: 0;
+.boxes:not(:last-child) {
+	margin-right: 20px;
+}
 
-// }
+.grams {
+	width: 53px;
+	height: 53px;
+	background: #9cbe8f;
+	border: 2px solid #9cbe8f;
+	box-shadow: 0px 6px 20px rgba(10, 136, 23, 0.25);
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	margin: 0 auto;
+	font-size: 12px;
+}
 
-// .btn-close {
+.calorie {
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: var(--text-color-dark);
+	padding-top: 6px;
+}
 
-// 	right: 17px;
-// 	top: 17px;
-// 	width: 17px;
-// 	height: 17px;
-// }
+.ingredients {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+	align-items: center;
+	text-align: center;
+	color: #131313;
+	padding-top: 48px;
+	padding-bottom: 24px;
+}
 
-// .modal-form-about {
+.column {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 48px;
+}
 
-// 	position: absolute;
-// 		left: 50%;
-// 	top: 50%;
+.product-item {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 176%;
+	align-items: center;
+	letter-spacing: 0.04em;
+	color: #131313;
+}
 
+.items-product:not(:last-child) {
+	margin-bottom: 11px;
+}
 
-// 	padding: 32px 40px;
-// 	display: flex;
-// 	flex-direction: column;
-// 		opacity: 1;
-// 		transition: transform, 300ms ease-in-out;
-// }
+.form-label {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 16px;
+}
 
+.form-input {
+	width: 368px;
+	height: 42px;
+	background: rgba(248, 210, 78, 0.1);
+	border: 1px solid #84a178;
+	border-radius: 10px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 16px;
+}
 
-// .chocolate {
-// 	font-family: "Seymour One";
-// 	font-style: normal;
-// 	font-weight: 400;
-// 	font-size: 20px;
-// 	line-height: 28px;
-// 	text-align: center;
-// 	color: #131313;
-// }
+.comment {
+	padding-bottom: 32px;
+}
 
-// .boxes {
-// 	display: flex;
-// 	width: 65px;
-// 	height: 90px;
-// 	border: 2px solid #9cbe8f;
-// 	border-radius: 40px;
-// 	display: inline-table;
-// }
+.form-comment {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 368px;
+	height: 84px;
+	resize: none;
+	background: rgba(248, 210, 78, 0.1);
+	border: 1px solid #84a178;
+	border-radius: 10px;
+	padding-top: 11px;
+	padding-left: 16px;
+}
 
-// .boxes-list {
-// 	display: flex;
-// 	padding-top: 24px;
-// 	justify-content: center;
-// }
+::placeholder {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	color: #131313;
+}
 
-// .boxes:not(:last-child) {
-// 	margin-right: 20px;
-// }
-
-// .grams {
-// 	width: 53px;
-// 	height: 53px;
-// 	background: #9cbe8f;
-// 	border: 2px solid #9cbe8f;
-// 	box-shadow: 0px 6px 20px rgba(10, 136, 23, 0.25);
-// 	justify-content: center;
-// 	display: flex;
-// 	align-items: center;
-// 	border-radius: 50%;
-// 	margin: 0 auto;
-// 	font-size: 12px;
-// }
-
-// .calorie {
-// 	text-align: center;
-// 	font-weight: 400;
-// 	font-size: 12px;
-// 	line-height: 15px;
-// 	color: var(--text-color-dark);
-// 	padding-top: 6px;
-// }
-
-// .ingredients {
-// 	font-weight: 500;
-// 	font-size: 20px;
-// 	line-height: 28px;
-// 	align-items: center;
-// 	text-align: center;
-// 	color: #131313;
-// 	padding-top: 48px;
-// 	padding-bottom: 24px;
-// }
-
-// .column {
-// 	display: flex;
-// 	justify-content: space-between;
-// 	padding-bottom: 48px;
-// }
-
-// .product-item {
-// 	font-family: "Montserrat";
-// 	font-weight: 400;
-// 	font-size: 14px;
-// 	line-height: 176%;
-// 	align-items: center;
-// 	letter-spacing: 0.04em;
-// 	color: #131313;
-// }
-
-// .items-product:not(:last-child) {
-// 	margin-bottom: 11px;
-// }
-
-// .form-label {
-// 	display: flex;
-// 	justify-content: center;
-// 	margin-bottom: 16px;
-// }
-
-// .form-input {
-// 	width: 368px;
-// 	height: 42px;
-// 	background: rgba(248, 210, 78, 0.1);
-// 	border: 1px solid #84a178;
-// 	border-radius: 10px;
-// 	padding-top: 11px;
-// 	padding-bottom: 11px;
-// 	padding-left: 16px;
-// }
-
-// .comment {
-// 	padding-bottom: 32px;
-// }
-
-// .form-comment {
-// 	display: flex;
-// 	justify-content: center;
-// 	margin: auto;
-// 	width: 368px;
-// 	height: 84px;
-// 	resize: none;
-// 	background: rgba(248, 210, 78, 0.1);
-// 	border: 1px solid #84a178;
-// 	border-radius: 10px;
-// 	padding-top: 11px;
-// 	padding-left: 16px;
-// }
-
-// ::placeholder {
-// 	font-family: "Montserrat";
-// 	font-weight: 400;
-// 	font-size: 14px;
-// 	line-height: 140%;
-// 	color: #131313;
-// }
-
-// .submit-modal-btn {
-// 	width: 121px;
-// 	height: 42px;
-// 	background: #f8d24e;
-// 	border-radius: 10px;
-// 	border: none;
-// 	margin: 0 auto;
-// 	display: flex;
-// 	text-align: center;
-// 	justify-content: center;
-// 	align-items: center;
-// 	margin-top: 32px;
-// }
+.submit-modal-btn {
+	width: 121px;
+	height: 42px;
+	background: #f8d24e;
+	border-radius: 10px;
+	border: none;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 32px;
+}
