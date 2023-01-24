@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 }); // end ready
 
-<<<<<<< HEAD
+
 (() => {
 	const refs = {
 		openMenuBtn: document.querySelector("[data-menu-open]"),
@@ -104,6 +104,5 @@ document.addEventListener('DOMContentLoaded', function() {
 		refs.menu.classList.toggle("is-open");
 	}
 })();
-=======
 
->>>>>>> 810e2dac028375ecaef9b133dedb00ee255d1dd1
+
