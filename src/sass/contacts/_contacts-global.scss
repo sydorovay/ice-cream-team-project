@@ -144,7 +144,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(1);
-	width: 280px;
+	min-width: 280px;
 	height: 365px;
 	padding: 28px;
 	background: var(--text-color-light);
@@ -163,7 +163,9 @@
 		text-align: center;	
 		color: var(--text-color-dark);
 }
-
+.image-location {
+	width: 100%;
+}
 .modal-locations-button {
 	position: absolute;
 	top: 12px;
@@ -193,8 +195,4 @@
 	text-align: center;
 	text-decoration: none;
 	color: var(--text-color-dark);
-}
-
-.modal-locations-button:hover {
-	cursor: pointer;
 }
