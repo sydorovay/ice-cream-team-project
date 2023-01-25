@@ -231,10 +231,11 @@ width: 360px;
        
     }
     .inputs{
-        width: auto;
+
         gap: 12px;
         margin-top: 10px;
     }
+    
     .modal-franchise{
         padding: 28px;
         width: 260px;
@@ -243,12 +244,11 @@ width: 360px;
         width: 100%;
         height: 64px;
     }
-    .franchise-form{
-        width: 260px;
-    }
+
     .contact-form-modal{
         width: 100%;
     }
+    
     .franchise-btn-head{
         font-family: 'Seymour One';
         font-weight: 400;
@@ -260,5 +260,9 @@ width: 360px;
     .franchise-submit{
         margin-top: 24px;
     }
-    
+    .button-close-franchise{
+        top: 5px;
+        right: 2px;
+
+    }
 }
