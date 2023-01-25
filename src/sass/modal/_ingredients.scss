@@ -1,16 +1,5 @@
-.modal {
-	position: fixed;
-	opacity: 0;
-	visibility: hidden;
-    max-height: 100%;
-	overflow-y: scroll;
-	min-width: 280px;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-
+.modal-about-products {
 	padding: 28px 20px;
-
 	background: var(--text-color-light);
 	border: 2px solid var(--default-color);
 	border-radius: 10px;
@@ -41,15 +30,14 @@
 	font-size: 20px;
 	line-height: 28px;
 	text-align: center;
-	color: #131313;
+	color: var(--text-color-dark);
 }
 
 .icecream-image {
 	margin: auto;
 }
 
-
-@media screen and (min-width:320px){
+@media screen and (min-width: 320px) {
 	.boxes:not(:last-child) {
 		margin-right: 9px;
 	}
@@ -70,8 +58,6 @@
 	}
 }
 
-
-
 .boxes {
 	display: flex;
 	width: 65px;
@@ -86,7 +72,7 @@
 	justify-content: center;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
 	.boxes:not(:last-child) {
 		margin-right: 20px;
 	}
@@ -118,8 +104,6 @@
 		outline: none;
 	}
 }
-
-
 
 .grams {
 	width: 53px;
@@ -206,13 +190,10 @@
 	padding-top: 11px;
 	padding-left: 16px;
 	outline: none;
-}s
-
-.comment {
+}
+s .comment {
 	padding-bottom: 32px;
 }
-
-
 
 ::placeholder {
 	font-family: 'Montserrat';
