@@ -4,11 +4,6 @@
 	padding-bottom: 90px;
 }
 
-.container-about {
-	width: 100%;
-	margin: auto;
-}
-
 .tradition {
 	margin-top: 0;
 	margin-bottom: 12px;
@@ -144,78 +139,3 @@
 	fill: var(--text-color-light);
 }
 
-// .backdrop {
-// 	position: fixed;
-// 	top: 0;
-// 	left: 0;
-// 	width: 100%;
-// 	height: 100%;
-// 	opacity: 1;
-// 	background-color: rgba(46, 47, 66, 0.4);
-// 	overflow-y: scroll;
-// 	transition: transform, 300ms ease-in-out;
-// }
-
-// .backdrop.is-hidden {
-// 	visibility: hidden;
-// 	opacity: 0;
-// 	pointer-events: none;
-// 	transition: transform, 300ms ease-in-out;
-// }
-
-// .modal {
-// 	position: absolute;
-// 	left: 50%;
-// 	top: 50%;
-// 	transform: translate(-50%, -50%);
-// 	background: var(--text-color-light);
-// 	border: 2px solid var(--default-color);
-// 	border-radius: 10px;
-// 	opacity: 1;
-// 	transition: transform, 300ms ease-in-out;
-// }
-
-// .backdrop.is-hidden .modal {
-// 	transform: translate(-50%, -50%);
-// 	top: 0;
-// 	opacity: 0;
-// }
-
-// .x-button {
-// 	position: absolute;
-// 	top: 16px;
-// 	right: 16px;
-// 	width: 12px;
-// 	height: 12px;
-// }
-
-// .modal-form {
-// 	padding-top: 10px;
-// 	padding-left: 28px;
-// 	padding-right: 28px;
-// }
-
-// .modal-title {
-// 	margin-top: 0;
-// 	margin-bottom: 20px;
-// 	font-family: 'Seymour One';
-// 	line-height: 1.5;
-// 	text-align: center;
-// 	color: var(--text-color-dark);
-// }
-
-// .made-ice-text {
-// 	font-style: normal;
-// 	font-size: 14px;
-// 	line-height: 1.4;
-// 	color: var(--text-color-dark);
-// }
-
-// .close-button {
-// 	border: none;
-// 	background: transparent;
-// }
-
-// .ice-video {
-// 	border-radius: 10px;
-// }
