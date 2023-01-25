@@ -1,36 +1,28 @@
 .modal-form-about {
 	position: absolute;
-height: 996px;
+	max-height: 996px;
 	padding: 32px 40px;
 	display: flex;
 	flex-direction: column;
-	overflow-y: scroll;
 }
-
 .ingredients-img {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .chocolate {
 	font-family: 'Seymour One';
-	font-style: normal;
-	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
 	text-align: center;
-	color: #131313;
+	color: var(--text-color-dark);
 }
-
 .icecream-image {
 	margin: auto;
 }
-
 @media screen and (min-width: 320px) {
 	.boxes:not(:last-child) {
 		margin-right: 9px;
 	}
-
 	.form-comment {
 		width: 100%;
 		display: flex;
@@ -46,7 +38,6 @@ height: 996px;
 		outline: none;
 	}
 }
-
 .boxes {
 	display: flex;
 	width: 65px;
@@ -55,17 +46,14 @@ height: 996px;
 	border-radius: 40px;
 	display: inline-table;
 }
-
 .boxes-list {
 	display: flex;
 	justify-content: center;
 }
-
 @media screen and (min-width: 768px) {
 	.boxes:not(:last-child) {
 		margin-right: 20px;
 	}
-
 	.form-comment {
 		display: flex;
 		justify-content: center;
@@ -80,7 +68,6 @@ height: 996px;
 		padding-left: 16px;
 		outline: none;
 	}
-
 	.form-input {
 		max-width: 368px;
 		height: 42px;
@@ -93,7 +80,6 @@ height: 996px;
 		outline: none;
 	}
 }
-
 .grams {
 	width: 53px;
 	height: 53px;
@@ -107,53 +93,43 @@ height: 996px;
 	margin: 0 auto;
 	font-size: 12px;
 }
-
 .calorie {
 	text-align: center;
-	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
 	color: var(--text-color-dark);
 	padding-top: 6px;
 }
-
 .ingredients {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 28px;
 	align-items: center;
 	text-align: center;
-	color: #131313;
+	color: var(--text-color-dark);
 	padding-top: 48px;
 	padding-bottom: 24px;
 }
-
 .column {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 48px;
 }
-
 .product-item {
-	font-family: 'Montserrat';
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 176%;
 	align-items: center;
 	letter-spacing: 0.04em;
-	color: #131313;
+	color: var(--text-color-dark);
 }
-
 .items-product:not(:last-child) {
 	margin-bottom: 11px;
 }
-
 .form-label {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 16px;
 }
-
 .form-input {
 	width: 100%;
 	height: 42px;
@@ -165,7 +141,6 @@ height: 996px;
 	padding-left: 16px;
 	outline: none;
 }
-
 .form-comment {
 	width: 100%;
 	display: flex;
@@ -180,16 +155,13 @@ height: 996px;
 	padding-left: 16px;
 	outline: none;
 }
-s .comment {
+.comment {
 	padding-bottom: 32px;
 }
-
 ::placeholder {
-	font-family: 'Montserrat';
-	font-weight: 400;
 	font-size: 14px;
-	line-height: 140%;
-	color: #131313;
+	line-height: 1.4em;
+	color: var(--text-color-dark);
 }
 
 .submit-modal-btn {

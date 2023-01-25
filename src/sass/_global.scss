@@ -2,7 +2,7 @@
 	-webkit-tap-highlight-color: transparent;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
 	width: 1px;
 }
 
@@ -84,15 +84,12 @@ img {
 .link,
 .address {
 	cursor: pointer;
-
 }
 
 .button:hover {
 	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .visually-hidden {
 	position: fixed;
@@ -125,7 +122,7 @@ img {
 	opacity: 0;
 	visibility: hidden;
 	max-width: 100vh;
-max-height: 100vh;
+	max-height: 100vh;
 	top: 50%;
 	left: 50%;
 
@@ -153,13 +150,14 @@ max-height: 100vh;
 	z-index: 1000;
 }
 
-
-	.modal,
-	.overlay 
-	.modal.active,
+.modal,
+.overlay .modal.active,
 .overlay.active {
-		overflow-y: scroll;
+	overflow-y: scroll;
+}
+
+@media screen and (max-width: 480px) {
+	.modal {
+		max-width: 280px;
 	}
-
-
-	
+}

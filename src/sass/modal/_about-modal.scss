@@ -1,10 +1,30 @@
 .about-modal {
-padding: 32px;
+	padding: 32px 60px;
+	max-width: 558px;
+	max-height: 449px;
 }
 
 .player {
-    display: flex;
+	display: flex;
 	flex-direction: column;
-    height: 100%;
-    width: 100%; 
+	height: 100%;
+	width: 100%;
+	gap: 32px;
 }
+.video {
+	gap: 32px;
+	display: flex;
+	flex-direction: column;
+	max-width: 448px;
+}
+
+.made-ice-text {
+	line-height: 1.4em;
+}
+
+.modal-title {
+	font-family: 'Seymour One';
+	font-size: 20px;
+	line-height: 28px;
+}
+

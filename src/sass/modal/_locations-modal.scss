@@ -2,7 +2,6 @@
 	padding: 32px 60px;
 	height: 458px;
 }
-
 .modal-title {
 	margin-bottom: 20px;
 	font-family: 'Seymour One';
@@ -26,7 +25,6 @@
 	border: none;
 	background-color: var(--text-focus-color);
 }
-
 .open-map-button {
 	display: block;
 	margin: 24px auto 0;
@@ -36,7 +34,6 @@
 	border-radius: 10px;
 	border: none;
 }
-
 .open-map-button .link {
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -47,7 +44,6 @@
 	text-decoration: none;
 	color: var(--text-color-dark);
 }
-
 .open-map-button:hover {
 	color: var(--hover-color);
 }

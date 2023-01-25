@@ -1,79 +1,55 @@
 @media screen and (min-width: 768px) {
-    .about-content {
-        display: flex;
-        justify-content: space-around;
-        gap: 38px;
-    }
+	.about-content {
+		display: flex;
+		justify-content: space-around;
+		gap: 38px;
+	}
 
-    .tradition {
-        font-size: 22px;
-    }
+	.tradition {
+		font-size: 22px;
+	}
 
-    .title-about {
-        font-size: 34px;
-    }
+	.title-about {
+		font-size: 34px;
+	}
 
-    .text-one,
-    .text-two,
-    .text-three {
-        text-align: start;
-    }
+	.text-one,
+	.text-two,
+	.text-three {
+		text-align: start;
+	}
 
-    .button-center {
-        justify-content: flex-start;
-    }
+	.button-center {
+		justify-content: flex-start;
+	}
 
-    .title-about {
-        width: 100%;
-        margin-bottom: 80px;
-    }
+	.title-about {
+		width: 100%;
+		margin-bottom: 80px;
+	}
 
-    .text-one,
-    .text-two {
-        margin-bottom: 8px;
-    }
+	.text-one,
+	.text-two {
+		margin-bottom: 8px;
+	}
 
-    .text-three {
-        margin-bottom: 32px;
-    }
+	.text-three {
+		margin-bottom: 32px;
+	}
 
-    .image-container {
-        margin-bottom: 0;
-    }
+	.image-container {
+		margin-bottom: 0;
+	}
 
-    .circle-above-cow {
-        width: 330px;
-        height: 330px;
-        box-shadow: 0px 5.30813px 19.9055px rgba(153, 114, 23, 0.25);
-    }
-    .circle-above-cow::after {
-        content: "";
-        top: 26px;
-        width: 330px;
-        height: 330px;
-    }
-
-    .modal {
-        width: 568px;
-    }
-
-    .modal-title {
-        margin-bottom: 32px;
-    }
-
-    .modal-form {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
-    .made-ice-text {
-        margin-top: 30px;
-    }
-    .modal-form-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .made-ice-text {
-        margin-top: 32px;
-    }
+	.circle-above-cow {
+		width: 330px;
+		height: 330px;
+		box-shadow: 0px 5.30813px 19.9055px rgba(153, 114, 23, 0.25);
+	}
+	.circle-above-cow::after {
+		content: '';
+		top: 26px;
+		width: 330px;
+		height: 330px;
+	}
 }
