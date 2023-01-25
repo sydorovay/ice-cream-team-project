@@ -56,12 +56,10 @@ document.addEventListener('DOMContentLoaded', function () {
 					'.modal[data-modal="' + modalId + '"]',
 				);
 
-			/* После того как нашли нужное модальное окно, добавим классы
-            подложке и окну чтобы показать их. */
-			modalElem.classList.add('active');
+						modalElem.classList.add('active');
 			overlay.classList.add('active');
-		}); // end click
-	}); // end foreach
+		}); 
+	}); 
 
 	closeButtons.forEach(function (item) {
 		item.addEventListener('click', function (e) {
@@ -70,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			parentModal.classList.remove('active');
 			overlay.classList.remove('active');
 		});
-	}); // end foreach
+	}); 
 
 	document.body.addEventListener(
 		'keyup',
@@ -89,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		document.querySelector('.modal.active').classList.remove('active');
 		this.classList.remove('active');
 	});
-}); // end ready
+}); 
 
 (() => {
 	const refs = {
