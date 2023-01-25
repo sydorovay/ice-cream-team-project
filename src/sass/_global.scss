@@ -113,10 +113,10 @@ img {
 	opacity: 0;
 	visibility: hidden;
 
-	
 	top: 50%;
 	left: 50%;
 
+	padding: 28px 20px;
 	transform: translate(-50%, -50%);
 	z-index: 500;
 	background: var(--text-color-light);
@@ -129,7 +129,7 @@ img {
 .overlay.active {
 	opacity: 1;
 	visibility: visible;
-	}
+}
 
 .modal__cross.js-modal-close {
 	width: 20px;
@@ -140,10 +140,9 @@ img {
 	z-index: 1000;
 }
 
-@media screen  and (max-width: 1199px ){
+@media screen and (max-width: 1199px) {
 	.modal,
-.overlay{
-	overflow-y: scroll;
-}
-
+	.overlay {
+		overflow-y: scroll;
+	}
 }
