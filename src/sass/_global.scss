@@ -123,8 +123,7 @@ img {
 .overlay.active {
 	opacity: 1;
 	visibility: visible;
-	overflow-y: scroll;
-}
+	}
 
 .modal__cross.js-modal-close {
 	width: 20px;
@@ -134,3 +133,12 @@ img {
 	cursor: pointer;
 	z-index: 1000;
 }
+@media screen  and (max-width: 1200px ){
+	.modal,
+	.modal.active,
+.overlay.active {
+	overflow-y: scroll;
+}
+
+}
+	
