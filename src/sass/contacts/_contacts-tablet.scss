@@ -70,12 +70,15 @@
 .modal-locations {
 	width: 568px;
 	height: 458px;
-	padding: 32px;
+	padding: 32px 60px;
 }
 .modal-title {
 	margin-bottom: 32px;
 	font-size: 20px;
 	line-height: 1.4;
+}
+.image-location {
+	height: 260px;
 }
 .open-map-button {
 	display: block;
