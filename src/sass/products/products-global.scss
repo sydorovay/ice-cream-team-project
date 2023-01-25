@@ -4,10 +4,6 @@
 	padding-top: 60px;
 
 	color: var(--text-color-dark);
-	/* background-color: var(--text-color-light);
-	
-	background-image: 
-	url('/src/images/background/Backgroud_mobile.png'); */
 	background-position: center;
 }
 
@@ -94,13 +90,6 @@
 	width: 200px;
 	height: 211px;
 
-	// background-image:
-	// image-set(
-	// 	url('/src/images/products/coffee.png') 1x,
-	// 	url('/src/images/products/coffee@2x.png') 2x,
-	// 	url('/src/images/products/coffee@3x.png') 3x
-	// );
-
 	background-image:
 		url('/src/images/products/coffee.png');
 
@@ -116,11 +105,6 @@
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-
-	// background-image: 
-	// image-set('/src/images/products/drinks.png' 1x, 
-	// 		'/src/images/products/Drinks@2x.png' 2x, 
-	// 		'/src/images/products/Drinks@3x.png' 3x);
 
 	background-image:
 		url('/src/images/products/drinks.png');
