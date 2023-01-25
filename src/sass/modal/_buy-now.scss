@@ -1,20 +1,6 @@
 .modal-buy-now {
-	min-width: 280px;
-	position: fixed;
-	visibility: hidden;
-	opacity: 0;
-
-	margin: auto;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	max-width: 991px;
 	padding: 28px 28px 29px;
-	background: #fcfcfc;
-	border: 2px solid var(--default-color);
-	border-radius: 10px;
-	z-index: 100000;
-	transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-buy-now.active,
