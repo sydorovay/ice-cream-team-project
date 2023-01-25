@@ -124,11 +124,16 @@
 	width: 40px;
 	height: 16px;
 	border: none;
+	padding: 6px;
 	background: none;
 	fill: var(--text-color-dark);
+}
+.arrow {
+	transition: 300ms ease;
 }
 
 .arrow:hover {
 	fill: var(--text-color-light);
 	transition: 300ms ease;
+	padding: 3px;
 }
