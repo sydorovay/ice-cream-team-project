@@ -163,7 +163,9 @@
 		text-align: center;	
 		color: var(--text-color-dark);
 }
-
+.image-location {
+	width: 100%;
+}
 .modal-locations-button {
 	position: absolute;
 	top: 12px;
@@ -193,8 +195,4 @@
 	text-align: center;
 	text-decoration: none;
 	color: var(--text-color-dark);
-}
-
-.modal-locations-button:hover {
-	cursor: pointer;
 }

@@ -24,6 +24,8 @@
 .modal-franchise.active{
     opacity: 1;
 	visibility: visible;
+
+    min-width: 280px;
 }
 
 .contact-form-one{
@@ -166,12 +168,14 @@ width: 360px;
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.7);
 }
+
 .modal-franchise {z-index: 100;
     visibility: hidden;
 	
     display: flex;
     width: auto;
     height: auto;
+    min-width: 280px;
     background: var(--text-color-light);
     border: 2px solid var(--default-color);
     border-radius: 10px;
@@ -184,22 +188,6 @@ width: 360px;
     opacity: 0;
     padding: 24px 60px;
 }
-.button-close-franchise {
-    position: absolute;
-    top: 17px;
-    right: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    cursor: pointer;
-    background-color: transparent;
-    border-color: transparent;
-    color: #131313;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 
 .franchise-submit:hover {
     background: var(--hover-color);
@@ -265,4 +253,5 @@ width: 360px;
         right: 2px;
 
     }
+    
 }
