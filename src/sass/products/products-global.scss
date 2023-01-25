@@ -179,3 +179,10 @@
 
 	fill: var(--text-color-dark);
 }
+
+.products-arrow-btn:hover {
+	color: var(--text-focus-color);
+	transition-duration: 300ms;
+	transition-timing-function:
+		cubic-bezier(0.4, 0, 0.2, 1);
+}
