@@ -28,6 +28,11 @@
 	transition: transform, 300ms ease-in-out;
 }
 
+.btn-close {
+	background: none;
+	border: none;
+}
+
 .chocolate {
 	font-family: 'Seymour One';
 	font-style: normal;
@@ -115,6 +120,7 @@
 	display: flex;
 	justify-content: center;
 	margin-bottom: 16px;
+
 }
 
 .form-input {
@@ -126,6 +132,7 @@
 	padding-top: 11px;
 	padding-bottom: 11px;
 	padding-left: 16px;
+	outline: none;
 }
 
 .comment {
@@ -144,6 +151,7 @@
 	border-radius: 10px;
 	padding-top: 11px;
 	padding-left: 16px;
+	outline: none;
 }
 
 ::placeholder {
@@ -166,4 +174,9 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 32px;
+	transition: background-color .25s cubic-bezier(.4, 0, .2, 1);
+}
+
+.submit-modal-btn:hover {
+	background: var(--hover-color);
 }
