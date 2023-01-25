@@ -108,6 +108,7 @@ img {
 }
 
 .modal {
+	min-width: 280px;
 	opacity: 0;
 	visibility: hidden;
 
@@ -133,6 +134,7 @@ img {
 	cursor: pointer;
 	z-index: 1000;
 }
+
 @media screen  and (max-width: 1200px ){
 	.modal,
 	.modal.active,
