@@ -24,6 +24,8 @@
 .modal-franchise.active{
     opacity: 1;
 	visibility: visible;
+
+    min-width: 280px;
 }
 
 .contact-form-one{
@@ -166,12 +168,14 @@ width: 360px;
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.7);
 }
+
 .modal-franchise {z-index: 100;
     visibility: hidden;
 	
     display: flex;
     width: auto;
     height: auto;
+    min-width: 280px;
     background: var(--text-color-light);
     border: 2px solid var(--default-color);
     border-radius: 10px;
