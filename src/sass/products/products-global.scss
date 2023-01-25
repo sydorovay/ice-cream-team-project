@@ -77,7 +77,10 @@
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url('/src/images/products/ice-cream.png');
+	
+	background-image: 
+	url('/src/images/products/ice-cream.png');
+	
 	background-position: center;
 	background-size: cover;
 	// border-radius: 50%;
@@ -90,7 +93,17 @@
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url('/src/images/products/coffee.png');
+
+	// background-image:
+	// image-set(
+	// 	url('/src/images/products/coffee.png') 1x,
+	// 	url('/src/images/products/coffee@2x.png') 2x,
+	// 	url('/src/images/products/coffee@3x.png') 3x
+	// );
+
+	background-image:
+		url('/src/images/products/coffee.png');
+
 	background-position: center;
 	background-size: cover;
 	// border-radius: 50%;
@@ -103,11 +116,54 @@
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url('/src/images/products/drinks.png');
+
+	// background-image: 
+	// image-set('/src/images/products/drinks.png' 1x, 
+	// 		'/src/images/products/Drinks@2x.png' 2x, 
+	// 		'/src/images/products/Drinks@3x.png' 3x);
+
+	background-image:
+		url('/src/images/products/drinks.png');
+	
 	background-position: center;
 	background-size: cover;
 	// border-radius: 50%;
 }
+
+@media (min-device-pixel-ratio: 2), 
+(min-resolution: 2dppx) {
+	.products-cards-list li:nth-child(3n + 1)::before {
+		background-image:
+			url('/src/images/products/ice-cream@2x.png');
+	}
+	.products-cards-list li:nth-child(3n + 2)::before {
+		background-image:
+			url('/src/images/products/coffee@2x.png');
+	}
+	.products-cards-list li:nth-child(3n + 3)::before {
+		background-image:
+			url('/src/images/products/Drinks@2x.png');
+	}
+}
+
+@media (min-device-pixel-ratio: 3),
+(min-resolution: 3dppx) {
+	.products-cards-list li:nth-child(3n + 1)::before {
+		background-image:
+			url('/src/images/products/ice-cream@3x.png');
+	}
+
+	.products-cards-list li:nth-child(3n + 2)::before {
+		background-image:
+			url('/src/images/products/coffee@3x.png');
+	}
+
+	.products-cards-list li:nth-child(3n + 3)::before {
+		background-image:
+			url('/src/images/products/Drinks@3x.png');
+	}
+}
+
 
 .products-card-title {
 	margin: 0 0 40px 0;
