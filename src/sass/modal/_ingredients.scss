@@ -23,7 +23,7 @@
 	margin-top: 200px;
 }
 
-// --- ! --- 
+// --- ! ---
 
 .modal-form-about {
 	position: absolute;
@@ -36,6 +36,10 @@
 	transition: transform, 300ms ease-in-out;
 }
 
+.ingredients-img {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .chocolate {
 	font-family: 'Seymour One';
@@ -124,7 +128,6 @@
 	display: flex;
 	justify-content: center;
 	margin-bottom: 16px;
-
 }
 
 .form-input {
@@ -178,7 +181,7 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 32px;
-	transition: background-color .25s cubic-bezier(.4, 0, .2, 1);
+	transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submit-modal-btn:hover {
