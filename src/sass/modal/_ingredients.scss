@@ -2,7 +2,8 @@
 	position: fixed;
 	opacity: 0;
 	visibility: hidden;
-
+    max-height: 100%;
+	overflow-y: scroll;
 	max-width: 568px;
 	left: 50%;
 	top: 50%;
@@ -16,14 +17,6 @@
 	opacity: 1;
 	transition: transform, 300ms ease-in-out;
 }
-
-// --- костиль ---
-
-.movedown {
-	margin-top: 200px;
-}
-
-// --- ! --- 
 
 .modal-form-about {
 	position: absolute;
@@ -47,6 +40,34 @@
 	color: #131313;
 }
 
+.icecream-image {
+	margin: auto;
+}
+
+
+@media screen and (min-width:480px){
+	.boxes:not(:last-child) {
+		margin-right: 9px;
+	}
+
+	.form-comment {
+		width: 237px;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		height: 84px;
+		resize: none;
+		background: rgba(248, 210, 78, 0.1);
+		border: 1px solid #84a178;
+		border-radius: 10px;
+		padding-top: 11px;
+		padding-left: 16px;
+		outline: none;
+	}
+}
+
+
+
 .boxes {
 	display: flex;
 	width: 65px;
@@ -58,13 +79,31 @@
 
 .boxes-list {
 	display: flex;
-	padding-top: 24px;
 	justify-content: center;
 }
 
-.boxes:not(:last-child) {
-	margin-right: 20px;
+@media screen and (min-width:767px){
+	.boxes:not(:last-child) {
+		margin-right: 20px;
+	}
+
+	.form-comment {
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		width: 368px;
+		height: 84px;
+		resize: none;
+		background: rgba(248, 210, 78, 0.1);
+		border: 1px solid #84a178;
+		border-radius: 10px;
+		padding-top: 11px;
+		padding-left: 16px;
+		outline: none;
+	}
 }
+
+
 
 .grams {
 	width: 53px;
@@ -103,7 +142,7 @@
 .column {
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 48px;
+	margin-bottom: 48px;
 }
 
 .product-item {
@@ -143,20 +182,7 @@
 	padding-bottom: 32px;
 }
 
-.form-comment {
-	display: flex;
-	justify-content: center;
-	margin: auto;
-	width: 368px;
-	height: 84px;
-	resize: none;
-	background: rgba(248, 210, 78, 0.1);
-	border: 1px solid #84a178;
-	border-radius: 10px;
-	padding-top: 11px;
-	padding-left: 16px;
-	outline: none;
-}
+
 
 ::placeholder {
 	font-family: 'Montserrat';
