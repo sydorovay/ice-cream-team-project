@@ -152,18 +152,26 @@
 	border-radius: 10px;
 }
 
+.modal-title {
+		margin-bottom: 20px;
+		font-family: 'Seymour One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		align-items: center;
+		text-align: center;	
+		color: var(--text-color-dark);
+}
+
 .modal-locations-button {
 	position: absolute;
 	top: 12px;
 	right: 12px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 20px;
 	height: 20px;
 	border: none;
-	background-color: black;
-	border-radius: 50%;
+	background-color: var(--text-focus-color);
 }
 
 .open-map-button {
@@ -185,4 +193,8 @@
 	text-align: center;
 	text-decoration: none;
 	color: var(--text-color-dark);
+}
+
+.modal-locations-button:hover {
+	cursor: pointer;
 }
