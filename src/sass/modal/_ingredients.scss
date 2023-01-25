@@ -1,10 +1,5 @@
 .modal-about-products {
 	padding: 28px 20px;
-	background: var(--text-color-light);
-	border: 2px solid var(--default-color);
-	border-radius: 10px;
-	opacity: 1;
-	transition: transform, 300ms ease-in-out;
 }
 
 .modal-form-about {
@@ -30,14 +25,15 @@
 	font-size: 20px;
 	line-height: 28px;
 	text-align: center;
-	color: var(--text-color-dark);
+	color: #131313;
 }
 
 .icecream-image {
 	margin: auto;
 }
 
-@media screen and (min-width: 320px) {
+
+@media screen and (min-width:320px){
 	.boxes:not(:last-child) {
 		margin-right: 9px;
 	}
@@ -58,6 +54,8 @@
 	}
 }
 
+
+
 .boxes {
 	display: flex;
 	width: 65px;
@@ -72,7 +70,7 @@
 	justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px){
 	.boxes:not(:last-child) {
 		margin-right: 20px;
 	}
@@ -104,6 +102,8 @@
 		outline: none;
 	}
 }
+
+
 
 .grams {
 	width: 53px;
@@ -190,10 +190,13 @@
 	padding-top: 11px;
 	padding-left: 16px;
 	outline: none;
-}
-s .comment {
+}s
+
+.comment {
 	padding-bottom: 32px;
 }
+
+
 
 ::placeholder {
 	font-family: 'Montserrat';
