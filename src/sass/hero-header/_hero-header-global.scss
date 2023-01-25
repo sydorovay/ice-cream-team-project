@@ -46,7 +46,7 @@
 	border: none;
 	color: var(--text-hover-disabled-color);
 	background-color: var(--default-color);
-}
+	}
 
 .arrow-on {
 	display: inline-block;
@@ -57,11 +57,17 @@
 .button-buy-now {
 	background-color: var(--default-color);
 	color: var(--text-hover-disabled-color);
+	transition-duration: 300ms;
+	transition-timing-function:
+		cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-buy-now:hover {
 	background-color: var(--hover-color);
 	color: var(--text-hover-disabled-color);
+	transition-duration: 300ms;
+	transition-timing-function:
+		cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-buy-now:focus {
@@ -72,6 +78,9 @@
 .button-buy-now:disabled {
 	background-color: var(--default-color);
 	color: var(--text-hover-disabled-color);
+	transition-duration: 300ms;
+	transition-timing-function:
+		cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title {
@@ -79,6 +88,9 @@
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	color: var(--text-color-light);
+	transition-duration: 300ms;
+	transition-timing-function:
+		cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title-link {

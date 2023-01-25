@@ -26,11 +26,7 @@ body {
 	background-size: contain;
 	background-position: center;
 }
-a:hover {
-	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 @media screen and (min-resolution: 2dppx) {
 	body {
 		background-image: url(../images/background/Backgroud_mobile@2x.png);
@@ -84,42 +80,19 @@ img {
 .link,
 .address {
 	cursor: pointer;
+
 }
+
+.button:hover {
+	transition-duration: 300ms;
+	transition-timing-function:
+		cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 .visually-hidden {
 	position: fixed;
 	transform: scale(0);
-}
-
-
-.button {
-	background-color: var(--default-color);
-	color: var(--text-hover-disabled-color);
-	
-}
-
-.button:hover {
-	background-color: var(--hover-color);
-	color: var(--text-hover-disabled-color);
-	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button:focus {
-	background-color: var(--hover-color);
-	color: var(--text-focus-color);
-	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button:disabled {
-	background-color: var(--default-color);
-	color: var(--text-hover-disabled-color);
-	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .arrow-right {
