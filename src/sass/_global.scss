@@ -119,13 +119,16 @@ img {
 	visibility: visible;
 	transition: 300ms ease-out;
 }
-.modal__cross.js-modal-close {
+.modal__cross, .js-modal-close {
 	width: 20px;
 	position: absolute;
 	top: 16;
 	right: 16;
 	cursor: pointer;
 	z-index: 1000;
+}
+.modal__cross.js-modal-close:hover {
+	transition: 300ms ease-out;
 }
 .modal,
 .overlay .modal.active,
