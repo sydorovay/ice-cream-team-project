@@ -57,9 +57,17 @@
 		font-size: 14px;
 		line-height: 1.5;
 	}
+	.btn-contacts-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: baseline;
+		column-gap: 16px;
+		margin-top: 40px;
+	}
 	.btn-contacts-one {
 		display: inline-block;
-		margin: 40px 16px 0 148px;
+		margin: 0;
 	}
 	.btn-contacts-two {
 		display: inline-block;
