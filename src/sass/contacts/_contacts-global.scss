@@ -91,9 +91,15 @@
 	line-height: 1.58;
 	color: var(--text-coror-dark);
 }
+.btn-contacts-list {
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .btn-contacts-one {
 	display: block;
-	margin: 20px auto 16px;
+	margin: 0 auto 16px;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 1.28;
@@ -133,9 +139,6 @@
 	border: 2px solid var(--hover-color);
 	color: #ffffff;
 }
-.svg-btn-contacts {
-	width: 5px;
-	height: 10px;
-}
+
 
 
