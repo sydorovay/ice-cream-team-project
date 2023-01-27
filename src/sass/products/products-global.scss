@@ -92,17 +92,6 @@
 		background-image: url('/src/images/products/Drinks@2x.png');
 	}
 }
-@media (min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
-	.products-cards-list li:nth-child(3n + 1)::before {
-		background-image: url('/src/images/products/ice-cream@3x.png');
-	}
-	.products-cards-list li:nth-child(3n + 2)::before {
-		background-image: url('/src/images/products/coffee@3x.png');
-	}
-	.products-cards-list li:nth-child(3n + 3)::before {
-		background-image: url('/src/images/products/Drinks@3x.png');
-	}
-}
 .products-card-title {
 	margin: 0 0 40px 0;
 	font-weight: 700;
