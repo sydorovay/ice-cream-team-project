@@ -66,6 +66,7 @@ img {
 .link {
 	display: block;
 	text-decoration: none;
+	transition: 300ms ease-out;
 }
 .button,
 .link,
@@ -127,6 +128,8 @@ img {
 	right: 16;
 	cursor: pointer;
 	z-index: 1000;
+	padding: 2px;
+	transition: 300ms ease-out;
 }
 .modal__cross.js-modal-close:hover {
 	transition: 300ms ease-out;
