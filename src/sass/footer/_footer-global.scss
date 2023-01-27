@@ -2,10 +2,6 @@
 	background-color: var(--section-gren-color);
 }
 
-/* .footer-container {
-	margin: auto;
-} */
-
 .footer-heading {
 	color: var(--text-color-light);
 	display: block;
@@ -21,7 +17,7 @@
 	display: flex;
 }
 
-.footer-social-media-link {
+.footer-social-media-linki {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -46,7 +42,7 @@
 	color: var(--text-color-dark);
 }
 
-.footer-tel-link {
+.footer-tel-linki {
 	text-decoration: none;
 	color: var(--text-color-light);
 }
