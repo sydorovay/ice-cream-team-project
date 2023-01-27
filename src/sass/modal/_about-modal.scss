@@ -1,33 +1,23 @@
 .about-modal {
 	padding: 32px 60px;
-	max-width: 558px;
-	max-height: 449px;
+	width: 568px;
+	text-align: center;
+	display: flex;
+	gap: 32px;
+	flex-direction: column;
 }
 
-.player {
-	
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	width: 100%;
-	gap: 32px;
-}
-.video {
-npm :start;
+.iframe {
 	width: 448px;
-	gap: 32px;
-	display: flex;
-	flex-direction: column;
-	max-width: 448px;
+	border-radius: 10px;
 }
-.iframe
 
 .made-ice-text {
 	line-height: 1.4em;
 }
 
-.modal-title {
+.title-modal {
 	font-family: 'Seymour One';
 	font-size: 20px;
-	line-height: 28px;
+	line-height: 1.4em;
 }
