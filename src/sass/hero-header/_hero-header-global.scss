@@ -136,12 +136,39 @@
 	align-items: flex-end;
 }
 
-.hero-description::after {
-	content: url('../images/svg/arrow.svg');
-	display: block;
-}
+/* // .hero-description::after {
+// 	content: url('../images/svg/arrow.svg');
+// 	display: block;
+// } */
 .number {
 	font-weight: 900;
 	letter-spacing: 0.04em;
 	color: var(--text-color-dark);
 }
+.holder{
+	position:relative;
+	width: 225px;
+	height: 225px;
+	}
+
+	.block{
+		position:absolute;
+		bottom:78px;
+		left: 100%;
+		transform: translate(16px, 0);
+		display: none;
+		transition: 300ms ease;
+		}
+
+.holder:hover .block{
+	display:block;
+	transition: 300ms ease;
+	}
+	
+	.icon-arrow {
+		display: block;
+		position: absolute;
+		fill: rgb(255, 0, 0);
+		position: absolute;	
+		transition: 300ms ease;
+	}
