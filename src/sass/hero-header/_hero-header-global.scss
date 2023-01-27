@@ -33,7 +33,7 @@
 	font-weight: 700;
 }
 
-.button-buy-now{
+.button-buy-now {
 	text-decoration: none;
 	font-weight: 600;
 	align-items: center;
@@ -42,16 +42,16 @@
 	padding: 12px 35px;
 	border-radius: 10px;
 	bottom: 64px;
-	
+
 	border: none;
 	color: var(--text-hover-disabled-color);
 	background-color: var(--default-color);
-	}
+}
 
 .arrow-on {
 	display: inline-block;
 	fill: currentColor;
-	
+
 }
 
 .button-buy-now {
@@ -97,6 +97,7 @@
 	position: relative;
 	z-index: 5;
 }
+
 .products-button {
 	font-weight: 600;
 	align-items: center;
@@ -121,7 +122,7 @@
 	color: var(--hover-color);
 	transition-timing-function: 300ms;
 	transition-timing-function:
-	cubic-bezier(0.4, 0, 0.2, 1);
+		cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cafes-amount {
@@ -140,8 +141,37 @@
 	content: url('../images/svg/arrow.svg');
 	display: block;
 }
+
 .number {
 	font-weight: 900;
 	letter-spacing: 0.04em;
 	color: var(--text-color-dark);
+}
+
+.holder {
+	position: relative;
+	width: 225px;
+	height: 225px;
+}
+
+.block {
+	position: absolute;
+	bottom: 78px;
+	left: 100%;
+	transform: translate(16px, 0);
+	display: none;
+	transition: 300ms ease;
+}
+
+.holder:hover .block {
+	display: block;
+	transition: 300ms ease;
+}
+
+.icon-arrow {
+	display: block;
+	position: absolute;
+	fill: rgb(255, 0, 0);
+	position: absolute;
+	transition: 300ms ease;
 }
