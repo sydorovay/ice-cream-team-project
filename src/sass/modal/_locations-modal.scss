@@ -14,7 +14,7 @@
 .image-location {
 	display: block;
 	width: 448px;
-	height: 260px;
+
 	border-radius: 10px;
 	margin-bottom: 32px;
 }
@@ -28,15 +28,19 @@
 	background-color: var(--text-focus-color);
 }
 .open-map-button {
-	display: block;
+	display: flex;
+	justify-items: center;
+	align-items: center;
 	margin: auto;
 	width: 134px;
 	height: 42px;
-	background: var(--default-color);
 	border-radius: 10px;
 	border: none;
 }
+
 .open-map-button .link {
+	color: var(--text-color-dark);
+	margin: auto;
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 1.25;
@@ -44,11 +48,24 @@
 	text-decoration: none;
 	color: var(--text-color-dark);
 }
+
+.open-map-button {
+	display: block;
+	background-color: var(--default-color);
+	color: var(--text-color-dark);
+}
 .open-map-button:hover {
 	background-color: var(--hover-color);
 	color: var(--text-color-dark);
 }
+
 .open-map-button:focus {
 	background-color: var(--hover-color);
 	color: var(--text-focus-color);
+}
+
+.open-map-button .link {
+	color: currentColor;
+	font-size: 14px;
+line-height: 18px;
 }

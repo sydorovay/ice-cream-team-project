@@ -71,6 +71,7 @@ img {
 .link,
 .address,
 .js-open-modal {
+	display: flex;
 	cursor: pointer;
 	transition: 300ms ease;
 }

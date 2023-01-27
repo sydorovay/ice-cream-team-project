@@ -10,11 +10,10 @@
 }
 .franchise-btn-head {
 	font-family: 'Seymour One';
-	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
 	width: 332px;
-	/* or 140% */
+	
 	margin-bottom: 24px;
 	display: flex;
 	align-items: center;
@@ -28,12 +27,10 @@
 .franchise-btn-text {
 	text-align: left;
 	width: 448px;
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 140%;
 }
 .contact-form-modal {
-	font-weight: 400;
 	font-size: 14px;
 	box-sizing: border-box;
 
@@ -47,7 +44,6 @@
 }
 
 .contact-form-message {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 14px;
 
@@ -82,8 +78,6 @@
 }
 
 .contact-text-one {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 24px;
@@ -98,7 +92,7 @@
 	margin-bottom: 8px;
 }
 
-.franchise-submit {
+.franchise-submit {display: block;
 	font-size: 14px;
 	line-height: 17px;
 
@@ -126,20 +120,29 @@
 	align-items: center;
 	padding: 24px 60px;
 }
-
+.franchise-submit {
+	display: block;
+}
 .franchise-submit:hover {
 	background: var(--hover-color);
+	color: var(--text-color-dark);
 }
 
 .franchise-submit:focus {
 	background: var(--hover-color);
 	border-radius: 10px;
 	fill: var(--text-color-light);
+	color: var(--text-color-light);
 }
 
 .franchise-submit:disabled {
 	background: var(--disabled-color);
 }
+.franchise-submit .link:hover {
+	display: block;
+	color: currentColor;
+}
+
 
 @media screen and (max-width: 767px) {
 	.franchise-btn-text {
@@ -161,7 +164,7 @@
 
 	.modal-franchise {
 		padding: 28px;
-		width: 260px;
+		
 	}
 	.contact-form-message {
 		width: 100%;
@@ -174,11 +177,11 @@
 
 	.franchise-btn-head {
 		font-family: 'Seymour One';
-		font-weight: 400;
 		font-size: 16px;
 		line-height: 24px;
 	}
 	.franchise-submit {
+		display: block;
 		margin-top: 24px;
 	}
 }

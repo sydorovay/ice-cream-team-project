@@ -5,6 +5,7 @@
 }
 
 .player {
+	
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -12,11 +13,14 @@
 	gap: 32px;
 }
 .video {
+npm :start;
+	width: 448px;
 	gap: 32px;
 	display: flex;
 	flex-direction: column;
 	max-width: 448px;
 }
+.iframe
 
 .made-ice-text {
 	line-height: 1.4em;
@@ -27,4 +31,3 @@
 	font-size: 20px;
 	line-height: 28px;
 }
-
