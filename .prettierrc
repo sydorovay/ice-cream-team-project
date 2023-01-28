@@ -1,16 +1,10 @@
 {
-	"arrowParens": "avoid",
-	"bracketSpacing": true,
-	"insertPragma": false,
-	"jsxBracketSameLine": false,
-	"printWidth": 80,
-	"proseWrap": "preserve",
-	"quoteProps": "as-needed",
-	"requirePragma": false,
-	"semi": true,
-	"semicolon": false,
-	"singleQuote": true,
-	"tabWidth": 2,
-	"trailingComma": "all",
-	"useTabs": true
+  "printWidth": 80,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "proseWrap": "always"
 }
