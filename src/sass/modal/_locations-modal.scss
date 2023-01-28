@@ -1,6 +1,6 @@
 .modal-locations {
-	padding: 32px 60px;
-	max-width: 568px;
+	padding-left: 60px ;
+	padding-right: 60px;
 }
 .modal-title {
 	margin-bottom: 20px;
@@ -26,25 +26,19 @@
 	background-color: var(--text-focus-color);
 }
 .open-map-button {
-	display: flex;
-	justify-items: center;
-	align-items: center;
 	margin: auto;
-	width: 134px;
+	width: 145px;
 	height: 42px;
 	border-radius: 10px;
 	border: none;
 }
 
 .open-map-button .linki {
-	color: var(--text-color-dark);
-	margin: auto;
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 1.25;
-	text-align: center;
 	text-decoration: none;
-	color: var(--text-color-dark);
+
 }
 
 .open-map-button {

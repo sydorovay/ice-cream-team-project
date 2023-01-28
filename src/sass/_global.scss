@@ -63,7 +63,8 @@ img {
 .list {
 	list-style: none;
 }
-.link {
+.link,
+.linki {
 	display: block;
 	text-decoration: none;
 	transition: 300ms ease-out;
@@ -122,7 +123,8 @@ img {
 	transition: 300ms ease-out;
 }
 .modal__cross, .js-modal-close {
-	width: 20px;
+	width: 24px;
+	height: 24px;
 	position: absolute;
 	top: 16;
 	right: 16;
