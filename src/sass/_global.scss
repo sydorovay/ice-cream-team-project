@@ -177,7 +177,12 @@ img {
 	30% {
 			fill: var(--add-text-color);
 	}
-
+		50% {
+			fill: var(--text-color-dark);
+	}
+70% {
+			fill: var(--add-text-color);
+	}
 	100% {
 		fill: var(--default-color);
 }
