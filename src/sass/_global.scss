@@ -21,7 +21,7 @@ body {
 	margin: auto;
 	padding: 0;
 
-	background-image: url('../images/background/webp/backgroud-mobile.webp');
+	background-image: url("../images/background/webp/backgroud-mobile.webp");
 
 	background-repeat: repeat-y;
 	background-size: contain;
@@ -29,26 +29,26 @@ body {
 }
 @media screen and (min-resolution: 2dppx) {
 	body {
-		background-image: url('../images/background/webp/backgroud-mobile@2x.webp');
+		background-image: url("../images/background/webp/backgroud-mobile@2x.webp");
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 	body {
-		background-image: url('../images/background//webp/background-tablet.webp');
+		background-image: url("../images/background//webp/background-tablet.webp");
 	}
 	@media screen and (min-resolution: 2dppx) {
 		body {
-			background-image: url('../images/background/webp/background-tablet@2x.webp');
+			background-image: url("../images/background/webp/background-tablet@2x.webp");
 		}
 	}
 }
 @media screen and (min-width: 1200px) {
 	body {
-		background-image: url('../images/background/webp/backgroud-desktop.webp');
+		background-image: url("../images/background/webp/backgroud-desktop.webp");
 	}
 	@media screen and (min-resolution: 2dppx) {
 		body {
-			background-image: url('../images/background/webp/backgroud-desktop@2x.webp');
+			background-image: url("../images/background/webp/backgroud-desktop@2x.webp");
 		}
 	}
 }
@@ -64,7 +64,8 @@ img {
 	list-style: none;
 }
 .link,
-.linki {
+.linki,
+.js-modal-close {
 	display: block;
 	text-decoration: none;
 	transition: 300ms ease-out;
@@ -80,7 +81,6 @@ img {
 	cursor: pointer;
 	transition: 300ms ease;
 }
-
 
 .visually-hidden {
 	position: fixed;
@@ -127,7 +127,7 @@ img {
 	visibility: visible;
 	transition: 300ms ease-out;
 }
-.modal__cross,
+
 .js-modal-close {
 	width: 24px;
 	height: 24px;
@@ -135,11 +135,19 @@ img {
 	top: 16;
 	right: 16;
 	z-index: 1000;
-	padding: 2px;
 	transition: 300ms ease-out;
 }
-.modal__cross.js-modal-close:hover {
-	transition: 300ms ease-out;
+.modal__cross:hover,
+.close-white:hover {
+	animation-name: closebtn;
+	animation-duration: 3000ms;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+.modal__cross:hover {
+	fill: currentColor;
 }
 .modal,
 .overlay .modal.active,
@@ -159,6 +167,19 @@ img {
 	100% {
 		background-color: #d6936d;
 	}
+}
+
+@keyframes closebtn {
+	0% {
+		fill: var(--default-color);
+	}
+	30% {
+			fill: var(--add-text-color);
+	}
+
+	100% {
+		fill: var(--default-color);
+}
 }
 @media screen and (max-width: 480px) {
 	.modal {

@@ -130,4 +130,14 @@ align-items: center;
 	fill: var(--text-color-light);
 }
 
+.close-white {
+	color: var(--text-color-light);
+}
 
+// .close-menu :hover {
+// 	display: block;
+// 	color: var(--text-color-dark);
+// }
+.close-white {
+	fill: currentColor;
+}
