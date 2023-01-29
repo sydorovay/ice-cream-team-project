@@ -21,7 +21,7 @@ body {
 	margin: auto;
 	padding: 0;
 
-	background-image: url(../images/background/Backgroud_mobile.png);
+	background-image: url(../images/background/avvif/backgroud_mobile.avif);
 
 	background-repeat: repeat-y;
 	background-size: contain;
@@ -29,26 +29,26 @@ body {
 }
 @media screen and (min-resolution: 2dppx) {
 	body {
-		background-image: url(../images/background/Backgroud_mobile@2x.png);
+		background-image: url(../images/background/avvif/backgroud_mobile@2x.avif);
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 	body {
-		background-image: url(../images/background/Background_tablet.png);
+		background-image: url(../images/background/avvif/background_tablet.avif);
 	}
 	@media screen and (min-resolution: 2dppx) {
 		body {
-			background-image: url(../images/background/Background_tablet@2x.png);
+			background-image: url(../images/background/avvif/background_tablet@2x.avif);
 		}
 	}
 }
 @media screen and (min-width: 1200px) {
 	body {
-		background-image: url(../images/background/Backgroud_desktop.png);
+		background-image: url(../images/background/avvif/backgroud_desktop.avif);
 	}
 	@media screen and (min-resolution: 2dppx) {
 		body {
-			background-image: url(../images/background/Backgroud_desktop@2x.png);
+			background-image: url(../images/background/avvif/backgroud_desktop@2x.avif);
 		}
 	}
 }
