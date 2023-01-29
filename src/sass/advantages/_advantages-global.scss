@@ -53,7 +53,7 @@
 .advantages-item1::before {
 	content: '';
 	display: block;
-	background: url('/src/images/advantages/cow.png');
+	background: url('/src/images/svg/cow.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: var(--default-color);
@@ -66,7 +66,7 @@
 .advantages-item2::before {
 	content: '';
 	display: block;
-	background: url('/src/images/advantages/weight.png');
+	background: url('/src/images/svg/weight.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: var(--default-color);
@@ -79,7 +79,7 @@
 .advantages-item3::before {
 	content: '';
 	display: block;
-	background: url('/src/images/advantages/ice-cream.png');
+	background: url('/src/images/svg/ice-crema.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: var(--default-color);
