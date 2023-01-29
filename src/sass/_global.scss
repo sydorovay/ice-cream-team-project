@@ -79,7 +79,7 @@ img {
 .checkbox:hover ~ .item-label,
 .checkbox:hover {
 	cursor: pointer;
-	transition: 300ms ease;
+	transition: 300ms ease-out;
 }
 
 .visually-hidden {
