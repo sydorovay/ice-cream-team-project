@@ -148,6 +148,7 @@ img {
 
 .modal__cross:hover {
 	fill: currentColor;
+	transition: 300ms ease-out;
 }
 .modal,
 .overlay .modal.active,
