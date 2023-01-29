@@ -17,7 +17,7 @@ ul {
 }
 body {
 	min-width: 320px;
-	font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+	font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
 	margin: auto;
 	padding: 0;
 
@@ -72,11 +72,16 @@ img {
 .button,
 .link,
 .address,
-.js-open-modal {
-	display: flex;
+.js-open-modal,
+.modal__cross,
+.js-modal-close,
+.checkbox:hover ~ .item-label,
+.checkbox:hover {
 	cursor: pointer;
 	transition: 300ms ease;
 }
+
+
 .visually-hidden {
 	position: fixed;
 	transform: scale(0);
@@ -104,7 +109,7 @@ img {
 	min-width: 280px;
 	opacity: 0;
 	visibility: hidden;
-	max-width: 100vh;
+	max-width: 100%;
 	max-height: 100vh;
 	top: 50%;
 	left: 50%;
@@ -122,13 +127,13 @@ img {
 	visibility: visible;
 	transition: 300ms ease-out;
 }
-.modal__cross, .js-modal-close {
+.modal__cross,
+.js-modal-close {
 	width: 24px;
 	height: 24px;
 	position: absolute;
 	top: 16;
 	right: 16;
-	cursor: pointer;
 	z-index: 1000;
 	padding: 2px;
 	transition: 300ms ease-out;
@@ -140,6 +145,20 @@ img {
 .overlay .modal.active,
 .overlay.active {
 	overflow-y: scroll;
+}
+
+@keyframes changeBgColor {
+	0% {
+		background-color: #9cbe8f;
+	}
+
+	50% {
+		background-color: #efd478;
+	}
+
+	100% {
+		background-color: #d6936d;
+	}
 }
 @media screen and (max-width: 480px) {
 	.modal {

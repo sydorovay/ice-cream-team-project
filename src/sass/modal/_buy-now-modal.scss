@@ -1,6 +1,6 @@
 .modal-buy-now {
 	padding: 28px 28px 29px;
-height: 644px;
+	height: 644px;
 }
 
 .modal-buy-now .icon {
@@ -9,7 +9,7 @@ height: 644px;
 }
 
 .modal__title {
-	font-family: 'Seymour One';
+	font-family: "Seymour One";
 	line-height: 1.5;
 	text-align: center;
 	color: var(--text-color-dark);
@@ -31,46 +31,45 @@ height: 644px;
 }
 
 .item-wrapper {
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+	padding-left: 16px;
+	padding-right: 16px;
 	background-color: #fcfcfc;
 	border: 2px solid #96af8c;
 	padding: 95px 0 20px;
 	border-radius: 15px;
+	box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-wrapper.ice-cream {
 	border: 2px solid #96af8c;
-	box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
 }
 
 .item-wrapper.ice-coffee {
 	border: 2px solid #efd478;
-	box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
 }
 
 .item-wrapper.milkshake {
 	border: 2px solid #d6936d;
-	box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
 }
 
-.checkbox:checked ~ .item-label .item-wrapper.ice-cream {
+.checkbox:checked ~ .item-label .item-wrapper.ice-cream,
+.checkbox:hover ~ .item-label .item-wrapper.ice-cream {
 	background-color: #96af8c;
 }
 
-.checkbox:checked ~ .item-label .item-wrapper.ice-coffee {
+.checkbox:checked ~ .item-label .item-wrapper.ice-coffee,
+.checkbox:hover ~ .item-label .item-wrapper.ice-coffee {
 	background-color: #efd478;
 }
 
-.checkbox:checked ~ .item-label .item-wrapper.milkshake {
+.checkbox:checked ~ .item-label .item-wrapper.milkshake,
+.checkbox:hover ~ .item-label .item-wrapper.milkshake {
 	background-color: #d6936d;
-}
-
-.checkbox:hover ~ .item-label {
-	cursor: pointer;
 }
 
 .bg-circle {
@@ -79,33 +78,30 @@ height: 644px;
 	width: 132px;
 	height: 132px;
 	border-radius: 50%;
-	background: linear-gradient(
-			0deg,
-			rgba(156, 190, 143, 0.7),
-			rgba(156, 190, 143, 0.7)
-		),
-		#d9d9d9;
+}
+
+.bg-circle.green {
+	background-color: var(--section-gren-color);
 	box-shadow: 0px 5.26027px 19.726px rgba(10, 136, 23, 0.25);
 }
 
 .bg-circle.yellow {
-	background: linear-gradient(
-			0deg,
-			rgba(248, 210, 78, 0.7),
-			rgba(248, 210, 78, 0.7)
-		),
-		#d9d9d9;
+	background-color: var(--default-color);
 	box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
 }
-
-.bg-circle {
-	background: linear-gradient(
-			0deg,
-			rgba(213, 117, 63, 0.7),
-			rgba(213, 117, 63, 0.7)
-		),
-		#d9d9d9;
+.bg-circle.brown {
+	background-color: var(--add-text-color);
 	box-shadow: 0px 5.26027px 19.726px rgba(0, 0, 0, 0.25);
+}
+
+.modal-buy-now-item:hover .bg-circle,
+.modal-buy-now-item:focus .bg-circle,
+.checkbox:checked ~ .item-label .item-wrapper {
+	animation-name: changeBgColor;
+	animation-duration: 3000ms;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 .modal-buy-now-image {
@@ -155,14 +151,14 @@ height: 644px;
 }
 
 .modal-form-input::placeholder {
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 	font-size: 12px;
 	line-height: 1.4;
 	color: var(--text-color-dark);
 }
 
 .form-textarea {
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 	font-size: 12px;
 	line-height: 1.4;
 	color: var(--text-color-dark);
