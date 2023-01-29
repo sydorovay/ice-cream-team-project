@@ -21,7 +21,7 @@ body {
 	margin: auto;
 	padding: 0;
 
-	background-image: url('../images/background/avvif/backgroud_mobile.avif');
+	background-image: url('../images/background/webp/backgroud-mobile.webp');
 
 	background-repeat: repeat-y;
 	background-size: contain;
@@ -29,26 +29,26 @@ body {
 }
 @media screen and (min-resolution: 2dppx) {
 	body {
-		background-image: url('../images/background/avvif/backgroud_mobile@2x.avif');
+		background-image: url('../images/background/webp/backgroud-mobile@2x.webp');
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 	body {
-		background-image: url('../images/background/avvif/background_tablet.avif');
+		background-image: url('../images/background//webp/background-tablet.webp');
 	}
 	@media screen and (min-resolution: 2dppx) {
 		body {
-			background-image: url('../images/background/avvif/background_tablet@2x.avif');
+			background-image: url('../images/background/webp/background-tablet@2x.webp');
 		}
 	}
 }
 @media screen and (min-width: 1200px) {
 	body {
-		background-image: url('../images/background/avvif/backgroud_desktop.avif');
+		background-image: url('../images/background/webp/backgroud-desktop.webp');
 	}
 	@media screen and (min-resolution: 2dppx) {
 		body {
-			background-image: url('../images/background/avvif/backgroud_desktop@2x.avif');
+			background-image: url('../images/background/backgroud_desktop@2x.png');
 		}
 	}
 }
