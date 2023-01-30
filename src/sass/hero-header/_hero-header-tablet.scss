@@ -74,7 +74,6 @@
 	.menu-nav.is-open {
 		top: 0;
 		left: 100%;
-		transform: translateX(0);
 	}
 
 	.nav-list {
@@ -142,31 +141,13 @@
 		margin-bottom: 50px;
 	}
 
-	.hero-description {
-		font-size: 12px;
-		line-height: 1.4;
-		width: 139px;
-	}
-
-	.hero-description:after {
-		margin-top: 12px;
-	}
-
-	.lots-of-ice-cream {
-		margin-bottom: 12px;
-	}
-	.lots-of-ice-cream-img {
-		display: block;
-		margin-right: 32px;
-	}
-
-	.doted-tablet-img {
+	.hero-dotted {
 		position: absolute;
 		bottom: 0;
 		left: 0;
 	}
 
-	.ice-cream-hero-tablet-img {
+	.hero-ice-cream {
 		position: absolute;
 		bottom: 0;
 		right: 92px;
@@ -185,10 +166,7 @@
 /* ================== tablet-desctop =========================== */
 
 @media screen and (min-width: 768px) {
-	/* .hero-header .container {
-	position: relative;
-} */
-
+	
 	.hero-img {
 		display: none;
 	}
@@ -214,15 +192,5 @@
 		flex-direction: column;
 
 		color: var(--text-color-light);
-	}
-
-	.hero-description {
-		color: var(--text-color-light);
-	}
-
-	.lots-of-ice-cream {
-		display: flex;
-		align-items: center;
-		z-index: 6;
-	}
+	}		
 }

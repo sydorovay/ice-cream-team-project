@@ -20,10 +20,11 @@
 
 .hero-info {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 }
 
-.header-content {
+.header-content {position: relative, fixed;
+	top: 0;
 	display: flex;
 	align-items: flex-end;
 	justify-items: center;
@@ -137,10 +138,6 @@
 	align-items: flex-end;
 }
 
-.hero-description::after {
-	content: url('../images/svg/arrow.svg');
-	display: block;
-}
 
 .number {
 	font-weight: 900;
@@ -149,15 +146,20 @@
 }
 
 .holder {
+
 	position: relative;
-	width: 225px;
-	height: 225px;
+	display: flex;
+	
+	bottom: 103px;
+	left: 257px;
+	width: 40px;
+	height: 16px;
 }
 
-.block {
+.block {display: block;
 	position: absolute;
-	bottom: 78px;
-	left: 100%;
+	bottom: 32px;
+
 	transform: translate(16px, 0);
 	display: none;
 	transition: 300ms ease;
@@ -167,11 +169,17 @@
 	display: block;
 	transition: 300ms ease;
 }
+.hero-arrow {display: inline-block;}
 
-.icon-arrow {
-	display: block;
-	position: absolute;
-	fill: rgb(255, 0, 0);
-	position: absolute;
-	transition: 300ms ease;
+.hero-info {
+	width: 200px;
 }
+
+	.hero-description {
+		position: relative;
+		color: var(--text-color-light);
+	}
+
+	.hero-arrow {
+		fill: currentColor;
+	}

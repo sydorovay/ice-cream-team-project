@@ -28,16 +28,15 @@
 						</ul>
 					</nav>
 					<div class="close-menu button">
-					<svg
-						class="close-white"
-						width="20"
-						height="20"
-						data-menu-close
+						<svg class="close-white" width="20" height="20" data-menu-close>
+							<use href="./images/sprite.svg#icon-close-white"></use>
+						</svg>
+					</div>
+					<button
+						class="js-open-modal button-buy-now"
+						data-modal="1"
+						aria-label="menu"
 					>
-						<use href="./images/sprite.svg#icon-close-white"></use>
-					</svg>
-</div>
-					<button class="js-open-modal button-buy-now" data-modal="1" aria-label="menu">
 						Buy now
 						<svg class="arrow-right" width="12" height="12">
 							<use href="./images/sprite.svg#icon-arrow-right"></use>
@@ -52,8 +51,12 @@
 				</svg>
 			</button>
 
-			<a href="#" class="js-open-modal button-buy-now" data-modal="1"
-			aria-label="open-menu">Buy now
+			<a
+				href="#"
+				class="js-open-modal button-buy-now"
+				data-modal="1"
+				aria-label="open-menu"
+				>Buy now
 				<svg class="arrow-right" width="12" height="12">
 					<use href="./images/sprite.svg#icon-arrow-right"></use>
 				</svg>
@@ -68,10 +71,14 @@
 					</h1>
 					<ul class="hero-info list">
 						<li>
-							<a  href="#natural" class="products-button link" href="#product">Products</a>
+							<a href="#natural" class="products-button link" href="#product"
+								>Products</a
+							>
 						</li>
 						<li>
-							<a href="#love" class="products-recipe" href="#sec2">How it’s made?</a>
+							<a href="#love" class="products-recipe" href="#sec2"
+								>How it’s made?</a
+							>
 						</li>
 					</ul>
 				</div>
@@ -81,105 +88,99 @@
 				</div>
 			</div>
 
-			<div class="lots-of-ice-cream">
-				<img
-					class="lots-of-ice-cream-img"
+			<picture>
+				<source
 					srcset="
-						./images/hero/lots-of-ice-cream-tablet.png    1x,
-						./images/hero/lots-of-ice-cream-tablet@2x.png 2x
+						/src/images/hero/webp/doted.webp    1x,
+						/src/images/hero/webp/doted@2x.webp 2x
 					"
-					src="./images/hero/lots-of-ice-cream-tablet.png"
+					media="(max-width:767px)"
+				/>
+				<source
+					srcset="
+						/src/images/hero/webp/doted-tablet.webp    1x,
+						/src/images/hero/webp/doted-tablet@2x.webp 2x
+					"
+					media="(max-width:1199px)"
+				/>
+				<source
+					srcset="
+						/src/images/hero/webp/doted-desctop.webp    1x,
+						/src/images/hero/webp/doted-desctop@2x.webp 2x
+					"
+					media="(min-width: 1200px)"
+				/>
+				<img
+					src="/src/images/hero/webp/doted.webp"
 					alt="lots of ice cream"
-					width="152"
+					class="hero-dotted"
 				/>
-				<img
-					class="lots-of-ice-cream-img-desctop"
+			</picture>
+			<!-- ====== -->
+			<picture>
+				<source
 					srcset="
-						./images/hero/lots-of-ice-cream-desctop.png    1x,
-						./images/hero/lots-of-ice-cream-desctop@2x.png 2x
+						/src/images/hero/webp/480.webp    1x,
+						/src/images/hero/webp/480@2x.webp 2x
 					"
-					src="./images/hero/lots-of-ice-cream-desctop.png"
-					alt="lots of ice cream"
-					width="255" height="255"
+					media="(max-width:767px)"
 				/>
-
-				<p class="hero-description">
-					Soft ice cream with a delicate taste, Fragrant invigorating drink,
-				</p>
-			</div>
-			<div class="hero-mobile-img">
-				<img
+				<source
 					srcset="
-						./images/hero/webp/doted-tablet.webp    1x,
-						./images/hero/webp/doted-tablet@2x.webp 2x
+						/src/images/hero/webp/tablet.webp    1x,
+						/src/images/hero/webp/tablet@2x.webp 2x
 					"
-					src="./images/hero/webp/doted-tablet.webp"
-					alt="icecream"
-					class="dotted-header-mobile"
-					width="320" height="51"
+					media="(max-width:1199px)"
 				/>
-
-				<img
-					srcset="./images/hero/mobile.png 1x, ./images/hero/mobile@2x.png 2x"
-					src="./images/hero/mobile.png"
-					alt="doteds"
-					class="ice-cream-header-mobile"
-					width="177"
-				/>
-			</div>
-			<div class="hero-img">
-				<img
+				<source
 					srcset="
-						./images/hero/webp/doted-tablet.webp    1x,
-						./images/hero/webp/doted-tablet@2x.webp 2x
+						/src/images/hero/webp/desktop.webp    1x,
+						/src/images/hero/webp/desktop@2x.webp 2x
 					"
-					src="./images/hero/webp/doted-tablet.webp"
-					alt="icecream"
-					class="dotted-header"
-					width="330"
+					media="(min-width: 1200px)"
 				/>
 				<img
-					srcset="./images/hero/480.png 1x, ./images/hero/480.png 2x"
-					src="./images/hero/480.png"
-					alt="doteds"
-					class="ice-cream-header"
-					width="218"
-				/>
-			</div>
-
-			<div class="hero-tablet-img">
-				<img
-					class="doted-tablet-img"
-					srcset="
-						./images/hero/doted-tablet.png    1x,
-						./images/hero/doted-tablet@2x.png 2x
-					"
-					src="./images/hero/doted-tablet.png"
-					alt="dotteds"
-				/>
-				<img
-					class="ice-cream-hero-tablet-img"
-					srcset="./images/hero/tablet.png 1x, ./images/hero/tablet@2x.png 2x"
-					src="./images/hero/tablet.png"
+					src="/src/images/hero/webp/480.webp"
 					alt="ice cream"
+					class="hero-ice-cream"
 				/>
-			</div>
-			<div class="hero-desctop-img">
-				<img
-					class="doted-desctop-img"
-					srcset="
-						./images/hero/doted-desctop.png    1x,
-						./images/hero/doted-desctop@2x.png 2x
-					"
-					src="./images/hero/doted-desctop.png"
-					alt="dottets"
-				/>
-				<img
-					class="ice-cream-hero-desctop-img"
-					srcset="./images/hero/desktop.png 1x, ./images/hero/desktop@2x.png 2x"
-					src="./images/hero/desktop.png"
-					alt="ice cream"
-				/>
+			</picture>
+
+			<div class="hero-description">
+				<picture>
+					<source
+						srcset="
+							/src/images/hero/webp/lots-of-ice-cream-desctop.webp    1x,
+							/src/images/hero/webp/lots-of-ice-cream-desctop@2x.webp 2x
+						"
+						media="(min-width: 1200px)"
+					/>
+					<source
+						srcset="
+							/src/images/hero/webp/lots-of-ice-cream-tablet.webp    1x,
+							/src/images/hero/webp/lots-of-ice-cream-tablet@2x.webp 2x
+						"
+						media="(max-width:1199px)"
+					/>
+					<img
+						src="/src/images/hero/webp/lots-of-ice-cream-tablet.webp "
+						alt="lots of ice cream"
+						class="hero-lots-of-ice-cream"
+						width="152"
+						height="152"
+					/>
+				</picture>
+				<!-- ====== -->
+
+				<div class="holder">
+					<svg class="hero-arrow" width="40" height="16">
+						<use href="/src/images/sprite.svg#icon-arrow"></use>
+					</svg>
+
+					<p class="hero-info block">
+						Soft ice cream with a delicate taste, Fragrant invigorating drink. Sweet drinks based on milk and ice cream,
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -1,7 +1,4 @@
 @media screen and (min-width: 480px) {
-	.hero-mobile-img {
-		display: none;
-	}
 
 	.hero-header .container {
 		position: relative;
@@ -21,16 +18,16 @@
 		margin-bottom: 236px;
 	}
 
-	.ice-cream-header-mobile {
+	.hero-ice-cream{
 		display: block;
 		position: absolute;
 		bottom: 0;
 		left: 27%;
-		width: 53%;
+		width: 50%;
 		height: auto;
 	}
 
-	.dotted-header-mobile {
+	.hero-dotted {
 		display: block;
 		position: absolute;
 		width: 100%;
@@ -45,24 +42,22 @@
 		margin-bottom: 161px;
 	}
 
-	.dotted-header {
+	.hero-dotted {
 		position: absolute;
 		bottom: 0;
 		right: 0;
 	}
 
-	.ice-cream-header {
+	.hero-ice-cream {
 		position: absolute;
-
 		bottom: 0;
 		right: 20px;
 	}
 }
 
 @media screen and (max-width: 767px) {
-	.lots-of-ice-cream-img,
-	.doted-tablet-img,
-	.ice-cream-hero-tablet-img {
+	.hero-description,
+	.hero-amount {
 		display: none;
 	}
 
@@ -88,11 +83,6 @@
 
 	.header-content {
 		margin-bottom: 50px;
-	}
-
-	.hero-amount,
-	.hero-description {
-		display: none;
 	}
 
 	.hero-title {

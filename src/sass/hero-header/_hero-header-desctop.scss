@@ -9,10 +9,7 @@
 	}
 
 	.menu-hamburger,
-	.close-menu,
-	.doted-tablet-img,
-	.ice-cream-hero-tablet-img,
-	.lots-of-ice-cream-img {
+	.close-menu {
 		display: none;
 	}
 
@@ -77,22 +74,12 @@
 		margin-bottom: 55px;
 	}
 
-	.lots-of-ice-cream-img-desctop {
-		margin-bottom: 65px;
-	}
-
-	.hero-description {
-		width: 200px;
-	}
-
-	.lots-of-ice-cream-img-desctop {
-		z-index: 5;
+	.hero-lots-of-ice-cream {
+		width: 255px;
+		height: 255px;
+		z-index: 100;
 		margin-right: 16px;
-	}
-
-	.hero-description:after {
-		margin-top: 24px;
-		z-index: 5;
+		margin-bottom: 65px;
 	}
 
 	.hero-info {
@@ -109,13 +96,14 @@
 		line-height: 1.28;
 	}
 
-	.doted-desctop-img {
+	.hero-dotted {
 		position: absolute;
+		height: 383px;
 		bottom: 0;
 		left: 0;
 	}
 
-	.ice-cream-hero-desctop-img {
+	.hero-ice-cream {
 		position: absolute;
 		bottom: 0;
 		right: 92px;
