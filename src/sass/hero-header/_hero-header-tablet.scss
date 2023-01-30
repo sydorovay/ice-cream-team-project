@@ -2,6 +2,10 @@
 	.hero {
 		display: flex;
 	}
+		.logo-img {
+		max-width: 48px;
+		max-height: 44px;
+	}
 	.hero-title {
 		width: 247px;
 		font-size: 26px;
@@ -94,6 +98,8 @@
 		padding-left: 32px;
 		padding-right: 32px;
 	}
+
+
 	.menu {
 		margin-right: 32px;
 	}
