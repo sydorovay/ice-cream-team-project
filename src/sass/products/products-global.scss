@@ -55,7 +55,7 @@
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url("/src/images/products/wepp/ice-cream.webp");
+	background-image: url("/src/images/products/webp/ice-cream.webp");
 	background-position: center;
 	background-size: cover;
 }
@@ -66,7 +66,7 @@
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url("/src/images/products/wepp/coffee.webp");
+	background-image: url("/src/images/products/webp/coffee.webp");
 	background-position: center;
 	background-size: cover;
 }
@@ -77,19 +77,19 @@
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url("/src/images/products/wepp/drinks.webp");
+	background-image: url("/src/images/products/webp/drinks.webp");
 	background-position: center;
 	background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
 	.products-cards-list li:nth-child(3n + 1)::before {
-		background-image: url("/src/images/products/wepp/ice-cream@2x.webp");
+		background-image: url("/src/images/products/webp/ice-cream@2x.webp");
 	}
 	.products-cards-list li:nth-child(3n + 2)::before {
-		background-image: url("/src/images/products/wepp/coffee@2x.webp");
+		background-image: url("/src/images/products/webp/coffee@2x.webp");
 	}
 	.products-cards-list li:nth-child(3n + 3)::before {
-		background-image: url("/src/images/products/wepp/drinks@2x.webp");
+		background-image: url("/src/images/products/webp/drinks@2x.webp");
 	}
 }
 .products-card-title {
