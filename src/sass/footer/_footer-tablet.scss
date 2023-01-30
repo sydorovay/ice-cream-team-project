@@ -3,50 +3,40 @@
 		display: flex;
 		align-items: center;
 	}
-
 	.footer-contacts {
 		margin-left: auto;
 	}
-
 	.footer-privacy-policy-text {
 		display: inline-block;
 	}
-
 	.footer-social-media-list {
 		justify-content: flex-end;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-
 	.footer-heading {
 		font-weight: 700;
 		font-size: 26px;
 		line-height: 1.2;
 		letter-spacing: 0.04em;
 	}
-
 	.footer-heading span {
 		font-size: 48px;
 		line-height: 59px;
 		letter-spacing: 0.06em;
-
 		padding-top: 8px;
 	}
-
 	.footer-main-content {
 		margin-bottom: 32px;
 	}
-
 	.footer-social-media-list {
 		gap: 30px;
 		margin-bottom: 34px;
 	}
-
 	.footer-privacy-policy {
 		text-align: center;
 		padding: 12px 0;
 	}
-
 	.footer-privacy-policy-text {
 		font-size: 12px;
 		line-height: 186%;

@@ -5,7 +5,6 @@
 		font-size: 18px;
 		line-height: 1.22;
 	}
-
 	.footer-heading span {
 		display: inline-block;
 		font-size: 34px;
@@ -14,25 +13,20 @@
 		padding-top: 16px;
 		padding-bottom: 60px;
 	}
-
 	.footer-social-media-list {
 		gap: 20px;
 		margin-bottom: 20px;
 	}
-
 	.footer-contacts {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
 		margin-left: auto;
 	}
-
 	.footer-tel {
 		text-align: right;
 		display: inline-block;
-
 		padding-bottom: 40px;
-
 		font-weight: 700;
 		font-size: 12px;
 		line-height: 186%;
@@ -44,11 +38,10 @@
 		padding: 20px 0;
 	}
 }
-
 @media screen and (max-width: 1999px) {
 	.footer-privacy-policy-text {
 		font-weight: 700;
 		font-size: 14px;
-		line-height: 152%;
+		line-height: 1.52;
 	}
 }

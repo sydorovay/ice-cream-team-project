@@ -1,10 +1,10 @@
 .modal-locations {
-	padding-left: 60px ;
+	padding-left: 60px;
 	padding-right: 60px;
 }
 .modal-title {
 	margin-bottom: 20px;
-	font-family: 'Seymour One';
+	font-family: "Seymour One";
 	line-height: 1.5;
 	align-items: center;
 	text-align: center;
@@ -32,15 +32,12 @@
 	border-radius: 10px;
 	border: none;
 }
-
 .open-map-button .linki {
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 1.25;
 	text-decoration: none;
-
 }
-
 .open-map-button {
 	display: block;
 	background-color: var(--default-color);
@@ -50,14 +47,12 @@
 	background-color: var(--hover-color);
 	color: var(--text-color-dark);
 }
-
 .open-map-button:focus {
 	background-color: var(--hover-color);
 	color: var(--text-focus-color);
 }
-
 .open-map-button .linki {
 	color: currentColor;
 	font-size: 14px;
-line-height: 18px;
+	line-height: 18px;
 }

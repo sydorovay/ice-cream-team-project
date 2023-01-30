@@ -1,55 +1,40 @@
 @media screen and (min-width: 1200px) {
-
 	.products-header-label {
 		font-weight: 800;
 		font-size: 30px;
 		line-height: 1.2333;
 		letter-spacing: 0.04em;
 	}
-
 	.products-header {
 		font-size: 36px;
 		line-height: 1.25;
 		letter-spacing: 0.06em;
 	}
-
 	.products-cards-list {
 		gap: 28px;
-
 		margin: 304px 0 60px 0;
 	}
-
 	.products-card {
 		padding: 164px 62px 0 62px;
-
 		width: 370px;
 		height: 536px;
 	}
-
 	.products-cards-list li:nth-child(3n + 1)::before {
 		width: 302px;
 		height: 318px;
 	}
-
 	.products-cards-list li:nth-child(3n + 2)::before {
 		width: 302px;
 		height: 318px;
 	}
-
 	.products-cards-list li:nth-child(3n + 3)::before {
 		width: 302px;
 		height: 318px;
 	}
-
 	.products-card-title {
 		font-size: 30px;
 		line-height: 1.2333;
 	}
-
-	.products-card-text {
-		font-size: 16px;
-	}
-
 	.products-arrow-btn {
 		bottom: 60px;
 	}

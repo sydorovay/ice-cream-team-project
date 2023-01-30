@@ -82,7 +82,6 @@ picture {
 	cursor: pointer;
 	transition: 300ms ease-out;
 }
-
 .visually-hidden {
 	position: fixed;
 	transform: scale(0);
@@ -128,7 +127,6 @@ picture {
 	visibility: visible;
 	transition: 300ms ease-out;
 }
-
 .js-modal-close {
 	width: 24px;
 	height: 24px;
@@ -146,7 +144,6 @@ picture {
 	animation-iteration-count: infinite;
 	animation-direction: normal;
 }
-
 .modal__cross:hover {
 	fill: currentColor;
 	transition: 300ms ease-out;
@@ -156,37 +153,35 @@ picture {
 .overlay.active {
 	overflow-y: scroll;
 }
-
 @keyframes changeBgColor {
 	0% {
-		background-color: #9cbe8f;
+		background-color: var(--section-gren-color);
 	}
 
 	50% {
-		background-color: #efd478;
+		background-color: var(--default-color);
 	}
 
 	100% {
-		background-color: #d6936d;
+		background-color: var(--add-text-color);
 	}
 }
-
 @keyframes closebtn {
 	0% {
 		fill: var(--default-color);
 	}
 	30% {
-			fill: var(--add-text-color);
+		fill: var(--add-text-color);
 	}
-		50% {
-			fill: var(--text-color-dark);
+	50% {
+		fill: var(--text-color-dark);
 	}
-70% {
-			fill: var(--add-text-color);
+	70% {
+		fill: var(--add-text-color);
 	}
 	100% {
 		fill: var(--default-color);
-}
+	}
 }
 @media screen and (max-width: 480px) {
 	.modal {

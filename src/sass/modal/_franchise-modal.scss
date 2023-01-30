@@ -1,25 +1,21 @@
 .contact-form-one {
 	justify-content: center;
 	align-items: center;
-	
 }
-
 .franchise-btn-head-1 {
 	justify-content: center;
 	display: flex;
 }
 .franchise-btn-head {
-	font-family: 'Seymour One';
+	font-family: "Seymour One";
 	font-size: 20px;
 	line-height: 28px;
 	width: 332px;
-	
 	margin-bottom: 24px;
 	display: flex;
 	align-items: center;
 	text-align: center;
 }
-
 .franchise-btn-text-1 {
 	justify-content: center;
 	display: flex;
@@ -27,30 +23,23 @@
 .franchise-btn-text {
 	text-align: left;
 	width: 448px;
-	font-size: 16px;
-	line-height: 140%;
+	line-height: 1.4;
 }
 .contact-form-modal {
 	font-size: 14px;
 	box-sizing: border-box;
-
 	background: rgba(248, 210, 78, 0.1);
 	border: 1px solid #84a178;
 	border-radius: 10px;
-
 	padding-left: 16px;
 	height: 40px;
 	width: 360px;
 }
-
 .contact-form-message {
 	font-size: 14px;
-	line-height: 14px;
-
+	line-height: 1;
 	letter-spacing: 0.01em;
-
 	color: rgba(117, 117, 117, 0.5);
-
 	width: 360px;
 	height: 84px;
 	left: 0px;
@@ -62,13 +51,11 @@
 	border-radius: 10px;
 	padding: 8px 16px;
 }
-
 .contact-form-fieldset {
 	display: flex;
 	margin-top: 16px;
 	margin-bottom: 24px;
 }
-
 .inputs {
 	display: flex;
 	flex-direction: column;
@@ -76,42 +63,33 @@
 	gap: 16px;
 	align-items: center;
 }
-
 .contact-text-one {
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
-
 	letter-spacing: 0.02em;
-
 	color: #2e2f42;
-
 	margin-top: 48px;
-
 	margin-bottom: 8px;
 }
-
-.franchise-submit {display: block;
+.franchise-submit {
+	display: block;
 	font-size: 14px;
-	line-height: 17px;
-
+	line-height: 1.21;
 	width: 121px;
 	height: 42px;
 	background: var(--default-color);
-	color: #131313;
+	color: var(--text-color-dark);
 	border: var(--default-color);
-
 	border-radius: 10px;
 	display: flex;
 	margin: auto;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-
 	margin-top: 32px;
 }
-
 .modal-franchise {
 	display: flex;
 	background: var(--text-color-light);
@@ -127,14 +105,12 @@
 	background: var(--hover-color);
 	color: var(--text-color-dark);
 }
-
 .franchise-submit:focus {
 	background: var(--hover-color);
 	border-radius: 10px;
 	fill: var(--text-color-light);
 	color: var(--text-color-light);
 }
-
 .franchise-submit:disabled {
 	background: var(--disabled-color);
 }
@@ -142,18 +118,14 @@
 	display: block;
 	color: currentColor;
 }
-
-
 @media screen and (max-width: 767px) {
 	.franchise-btn-text {
 		width: auto;
 		font-size: 14px;
 	}
-
 	.franchise-btn-head {
 		width: auto;
 	}
-
 	.contact-form-one {
 		width: 100%;
 	}
@@ -161,22 +133,18 @@
 		gap: 12px;
 		margin-top: 10px;
 	}
-
 	.modal-franchise {
 		padding: 28px;
-		
 	}
 	.contact-form-message {
 		width: 100%;
 		height: 64px;
 	}
-
 	.contact-form-modal {
 		width: 100%;
 	}
-
 	.franchise-btn-head {
-		font-family: 'Seymour One';
+		font-family: "Seymour One";
 		font-size: 16px;
 		line-height: 24px;
 	}

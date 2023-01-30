@@ -16,7 +16,7 @@
 }
 .products-header {
 	margin-top: 12px;
-	font-family: 'Seymour One';
+	font-family: "Seymour One";
 	font-size: 30px;
 	line-height: 1.27;
 	text-align: center;
@@ -49,47 +49,47 @@
 	border-radius: 24px;
 }
 .products-cards-list li:nth-child(3n + 1)::before {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 0;
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url('/src/images/products/ice-cream.png');
+	background-image: url("/src/images/products/wepp/ice-cream.webp");
 	background-position: center;
 	background-size: cover;
 }
 .products-cards-list li:nth-child(3n + 2)::before {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 0;
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url('/src/images/products/coffee.png');
+	background-image: url("/src/images/products/wepp/coffee.webp");
 	background-position: center;
 	background-size: cover;
 }
 .products-cards-list li:nth-child(3n + 3)::before {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 0;
 	transform: translateY(-50%);
 	width: 200px;
 	height: 211px;
-	background-image: url('/src/images/products/drinks.png');
+	background-image: url("/src/images/products/wepp/drinks.webp");
 	background-position: center;
 	background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
 	.products-cards-list li:nth-child(3n + 1)::before {
-		background-image: url('/src/images/products/ice-cream@2x.png');
+		background-image: url("/src/images/products/wepp/ice-cream@2x.webp");
 	}
 	.products-cards-list li:nth-child(3n + 2)::before {
-		background-image: url('/src/images/products/coffee@2x.png');
+		background-image: url("/src/images/products/wepp/coffee@2x.webp");
 	}
 	.products-cards-list li:nth-child(3n + 3)::before {
-		background-image: url('/src/images/products/Drinks@2x.png');
+		background-image: url("/src/images/products/wepp/drinks@2x.webp");
 	}
 }
 .products-card-title {

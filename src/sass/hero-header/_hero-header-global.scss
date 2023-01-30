@@ -2,38 +2,32 @@
 	display: block;
 	margin-right: auto;
 }
-
 .hero-header {
 	background-color: var(--section-gren-color);
 	width: 100%;
 }
-
 .hero-header .container {
 	background-repeat: no-repeat;
 }
-
 .menu.button {
 	display: block;
 	border: none;
 	background-color: transparent;
 }
-
 .hero-info {
 	display: flex;
 	align-items: flex-start;
 }
-
-.header-content {position: relative, fixed;
+.header-content {
+	position: relative, fixed;
 	top: 0;
 	display: flex;
 	align-items: flex-end;
 	justify-items: center;
 }
-
 .nav-link {
 	font-weight: 700;
 }
-
 .button-buy-now {
 	text-decoration: none;
 	font-weight: 600;
@@ -48,57 +42,44 @@
 	color: var(--text-hover-disabled-color);
 	background-color: var(--default-color);
 }
-
 .arrow-on {
 	display: inline-block;
 	fill: currentColor;
-
 }
-
 .button-buy-now {
 	background-color: var(--default-color);
 	color: var(--text-hover-disabled-color);
 	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-buy-now:hover {
 	background-color: var(--hover-color);
 	color: var(--text-hover-disabled-color);
 	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-buy-now:focus {
 	background-color: var(--hover-color);
 	color: var(--text-focus-color);
 }
-
 .button-buy-now:disabled {
 	background-color: var(--default-color);
 	color: var(--text-hover-disabled-color);
 	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .hero-title {
 	font-family: "Seymour One";
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	color: var(--text-color-light);
 	transition-duration: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .hero-title-link {
 	position: relative;
 	z-index: 5;
 }
-
 .products-button {
 	font-weight: 600;
 	align-items: center;
@@ -107,79 +88,66 @@
 	border: 2px solid #f8d24e;
 	color: var(--black-color);
 }
-
 .products-button:hover {
 	border-color: var(--hover-color);
 }
-
 .products-recipe {
 	font-weight: 600;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: var(--default-color);
 }
-
 .products-recipe:hover {
 	color: var(--hover-color);
 	transition-timing-function: 300ms;
-	transition-timing-function:
-		cubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .cafes-amount {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 }
-
 .trucks-amount {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 }
-
-
 .number {
 	font-weight: 900;
 	letter-spacing: 0.04em;
 	color: var(--text-color-dark);
 }
-
 .holder {
-
 	position: relative;
 	display: flex;
-	
+
 	bottom: 103px;
 	left: 257px;
 	width: 40px;
 	height: 16px;
 }
-
-.block {display: block;
+.block {
+	display: block;
 	position: absolute;
 	bottom: 32px;
-
 	transform: translate(16px, 0);
 	display: none;
 	transition: 300ms ease;
 }
-
 .holder:hover .block {
 	display: block;
 	transition: 300ms ease;
 }
-.hero-arrow {display: inline-block;}
-
+.hero-arrow {
+	display: inline-block;
+}
 .hero-info {
 	width: 200px;
 }
-
-	.hero-description {
-		position: relative;
-		color: var(--text-color-light);
-	}
-
-	.hero-arrow {
-		fill: currentColor;
-	}
+.hero-description {
+	position: relative;
+	color: var(--text-color-light);
+}
+.hero-arrow {
+	fill: currentColor;
+}

@@ -1,13 +1,6 @@
 .modal-buy-now {
 	padding: 28px 28px 29px;
-	height: 644px;
 }
-
-.modal-buy-now .icon {
-	width: 11.11px;
-	height: 11.06px;
-}
-
 .modal__title {
 	font-family: "Seymour One";
 	line-height: 1.5;
@@ -15,21 +8,17 @@
 	color: var(--text-color-dark);
 	margin-bottom: 83px;
 }
-
 .modal-buy-now-item {
 	width: 132px;
 	height: 136px;
 	margin: 0 auto 82px;
 }
-
 .modal-buy-now-item:nth-child(2) {
 	margin-bottom: 85px;
 }
-
 .modal-buy-now-item:nth-child(3) {
 	margin-bottom: 31px;
 }
-
 .item-wrapper {
 	position: relative;
 	display: flex;
@@ -44,34 +33,27 @@
 	box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .item-wrapper.ice-cream {
 	border: 2px solid #96af8c;
 }
-
 .item-wrapper.ice-coffee {
 	border: 2px solid #efd478;
 }
-
 .item-wrapper.milkshake {
 	border: 2px solid #d6936d;
 }
-
 .checkbox:checked ~ .item-label .item-wrapper.ice-cream,
 .checkbox:hover ~ .item-label .item-wrapper.ice-cream {
 	background-color: #96af8c;
 }
-
 .checkbox:checked ~ .item-label .item-wrapper.ice-coffee,
 .checkbox:hover ~ .item-label .item-wrapper.ice-coffee {
 	background-color: #efd478;
 }
-
 .checkbox:checked ~ .item-label .item-wrapper.milkshake,
 .checkbox:hover ~ .item-label .item-wrapper.milkshake {
 	background-color: #d6936d;
 }
-
 .bg-circle {
 	position: absolute;
 	top: -47%;
@@ -79,12 +61,10 @@
 	height: 132px;
 	border-radius: 50%;
 }
-
 .bg-circle.green {
 	background-color: var(--section-gren-color);
 	box-shadow: 0px 5.26027px 19.726px rgba(10, 136, 23, 0.25);
 }
-
 .bg-circle.yellow {
 	background-color: var(--default-color);
 	box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
@@ -93,7 +73,6 @@
 	background-color: var(--add-text-color);
 	box-shadow: 0px 5.26027px 19.726px rgba(0, 0, 0, 0.25);
 }
-
 .modal-buy-now-item:hover .bg-circle,
 .modal-buy-now-item:focus .bg-circle,
 .checkbox:checked ~ .item-label .item-wrapper {
@@ -103,7 +82,6 @@
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
-
 .modal-buy-now-image {
 	position: absolute;
 	border-radius: 50%;
@@ -111,7 +89,6 @@
 	height: 132px;
 	top: -50%;
 }
-
 .modal-buy-now-text {
 	display: block;
 	font-weight: 700;
@@ -120,7 +97,6 @@
 	text-transform: uppercase;
 	color: var(--text-color-dark);
 }
-
 .modal-form-input {
 	display: block;
 	width: 224px;
@@ -133,7 +109,6 @@
 	border-radius: 10px;
 	margin-bottom: 12px;
 }
-
 .validation {
 	opacity: 0;
 	font-size: 12px;
@@ -141,22 +116,18 @@
 	color: red;
 	transition: opacity;
 }
-
 .modal-form-input:required:invalid:not(:placeholder-shown) {
 	border: 1px solid red;
 }
-
 .modal-form-input:required:invalid:not(:placeholder-shown) + .validation {
 	opacity: 1;
 }
-
 .modal-form-input::placeholder {
 	font-family: "Montserrat";
 	font-size: 12px;
 	line-height: 1.4;
 	color: var(--text-color-dark);
 }
-
 .form-textarea {
 	font-family: "Montserrat";
 	font-size: 12px;
@@ -173,11 +144,9 @@
 	resize: none;
 	margin-bottom: 26px;
 }
-
 .form-textarea::placeholder {
 	color: var(--text-color-dark);
 }
-
 .button-submit {
 	display: block;
 	margin: 0 auto;
@@ -193,17 +162,14 @@
 	cursor: pointer;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-submit:hover {
 	background-color: var(--hover-color);
 	color: var(--text-hover-disabled-color);
 }
-
 .button-submit:focus {
 	background-color: var(--hover-color);
 	color: var(--text-focus-color);
 }
-
 @media screen and (min-width: 768px) {
 	.modal-buy-now .button-close {
 		top: 17.33px;

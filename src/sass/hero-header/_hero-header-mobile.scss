@@ -1,24 +1,19 @@
 @media screen and (min-width: 480px) {
-
 	.hero-header .container {
 		position: relative;
 	}
 }
-
 @media screen and (max-width: 479px) {
 	.hero-img {
 		display: none;
 	}
-
 	.hero-info {
 		margin-bottom: 247px;
 	}
-
 	.hero-info {
 		margin-bottom: 236px;
 	}
-
-	.hero-ice-cream{
+	.hero-ice-cream {
 		display: block;
 		position: absolute;
 		bottom: 0;
@@ -26,7 +21,6 @@
 		width: 50%;
 		height: auto;
 	}
-
 	.hero-dotted {
 		display: block;
 		position: absolute;
@@ -36,67 +30,54 @@
 		left: 0;
 	}
 }
-
 @media screen and (min-width: 480px) and (max-width: 767px) {
 	.hero-title-link {
 		margin-bottom: 161px;
 	}
-
 	.hero-dotted {
 		position: absolute;
 		bottom: 0;
 		right: 0;
 	}
-
 	.hero-ice-cream {
 		position: absolute;
 		bottom: 0;
 		right: 20px;
 	}
 }
-
 @media screen and (max-width: 767px) {
 	.hero-description,
 	.hero-amount {
 		display: none;
 	}
-
 	.logo-img {
 		max-width: 40px;
 		max-height: 37px;
 	}
-
 	.container {
 		max-width: 480px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-
 	.hero {
 		flex-direction: column;
 	}
-
 	.hero-header {
 		padding-top: 12px;
 		position: relative;
 	}
-
 	.header-content {
 		margin-bottom: 50px;
 	}
-
 	.hero-title {
 		margin-bottom: 43px;
 	}
-
 	.products-button {
 		padding: 11px 26px;
 	}
-
 	.header-content > .button-buy-now {
 		display: none;
 	}
-
 	.button-buy-now {
 		display: inline-block;
 		margin: 0 auto;
