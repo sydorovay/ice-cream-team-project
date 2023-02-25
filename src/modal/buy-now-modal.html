@@ -1,0 +1,105 @@
+<div class="modal modal-buy-now" data-modal="1">
+	<a href="#" class="js-modal-close" data-modal="1">
+		<svg class="modal__cross" width="20" height="20">
+			<use href="./images/sprite.svg#icon-close-black"></use>
+		</svg>
+	</a>
+	<p class="modal__title modal__title">Buy now</p>
+
+	<ul class="modal-buy-now-list list">
+		<li class="modal-buy-now-item">
+			<input
+				class="checkbox visually-hidden"
+				type="checkbox"
+				name="checkbox"
+				id="ice-cream"
+			/>
+			<label class="item-label" for="ice-cream">
+				<div class="item-wrapper ice-cream">
+					<span class="bg-circle green"></span>
+					<img
+						class="modal-buy-now-image"
+						srcset="/src/images/products/webp/ice-cream-small@2x.webp 2x"
+						src="/src/images/products/webp/ice-cream-small.webp"
+						alt="Ice-Cream"
+						width="132"
+						height="139"
+					/>
+					<o class="modal-buy-now-text">ice cream</o>
+				</div>
+			</label>
+		</li>
+		<li class="modal-buy-now-item">
+			<input
+				class="checkbox visually-hidden"
+				type="checkbox"
+				name="checkbox"
+				id="ice-coffee"
+			/>
+			<label class="item-label" for="ice-coffee">
+				<div class="item-wrapper ice-coffee">
+					<span class="bg-circle yellow"></span>
+					<img
+						class="modal-buy-now-image"
+						srcset="/src/images/products/webp/coffee-small@2x.webp 2x"
+						src="/src/images/products/webp/coffee-small.webp"
+						alt="ice coffee"
+						width="132"
+						height="139"
+					/>
+					<o class="modal-buy-now-text">ice coffee</o>
+				</div>
+			</label>
+		</li>
+		<li class="modal-buy-now-item">
+			<input
+				class="checkbox visually-hidden"
+				type="checkbox"
+				name="checkbox"
+				id="milkshake"
+			/>
+			<label class="item-label" for="milkshake">
+				<div class="item-wrapper milkshake">
+					<span class="bg-circle brown"></span>
+					<img
+						class="modal-buy-now-image"
+						srcset="/src/images/products/webp/drinks-small@2x.webp 2x"
+						src="/src/images/products/webp/drinks-small.webp"
+						alt="milkshake"
+						width="132"
+						height="139"
+					/>
+					<o class="modal-buy-now-text">milkshake</o>
+				</div>
+			</label>
+		</li>
+	</ul>
+	<form>
+		<input
+			class="modal-form-input"
+			type="text"
+			name="name"
+			placeholder="Name"
+			required
+			pattern="[a-zA-Zа-яА-Я]+"
+			minlength="2"
+		/>
+		<input
+			class="modal-form-input"
+			type="tel"
+			name="phone"
+			placeholder="Phone"
+			required
+			pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+			title="XXX-XXX-XX-XX"
+		/>
+		<textarea
+			class="form-textarea"
+			name="comment"
+			placeholder="Comment"
+		></textarea>
+		<button class="button-submit button" type="submit">Submit</button>
+	</form>
+</div>
+
+<div class="overlay js-overlay-modal" data-modal></div>

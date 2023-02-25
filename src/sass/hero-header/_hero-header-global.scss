@@ -130,12 +130,21 @@
 	display: block;
 	transition: 300ms ease;
 }
+
+	.holder {
+	position: relative;
+	display: flex;
+
+	width: 40px;
+	height: 16px;
+}
 .hero-arrow {
 	display: inline-block;
 }
 .hero-info {
-	width: 200px;
+align-items: center;
 }
+
 .hero-description {
 	position: relative;
 	color: var(--text-color-light);

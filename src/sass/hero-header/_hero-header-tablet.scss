@@ -18,6 +18,7 @@
 	.hero-info {
 		font-size: 12px;
 		line-height: 1.25;
+		margin-bottom: 23px;
 	}
 	.products-button {
 		display: block;
@@ -112,9 +113,7 @@
 	.hero-title {
 		margin-bottom: 35px;
 	}
-	.hero-info {
-		margin-bottom: 50px;
-	}
+
 	.hero-dotted {
 		position: absolute;
 		bottom: 0;
@@ -133,6 +132,16 @@
 		font-size: 28px;
 		line-height: 1.21;
 	}
+	
+	.holder {
+	position: relative;
+	display: flex;
+
+	bottom: 24px;
+	left: 154px;
+	width: 40px;
+	height: 16px;
+}
 }
 /* ================== tablet-desctop =========================== */
 @media screen and (min-width: 768px) {
